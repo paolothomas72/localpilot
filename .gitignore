@@ -12,3 +12,4 @@ localpilot.config.json
 .DS_Store
 Thumbs.db
 LOCALPILOT-JOURNEY*.md
+output.csv
