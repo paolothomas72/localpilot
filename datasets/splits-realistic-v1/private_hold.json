@@ -1,0 +1,388 @@
+[
+  {
+    "id": 5,
+    "task_size": "very_small",
+    "template_id": "very_small_04",
+    "category": "very_small",
+    "prompt": "Fix known null-check bug in `src/report-worker/billingPipeline.py` line `128`; rerun `pytest tests/report-worker/test_billingpipeline.py -q`.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 1
+  },
+  {
+    "id": 6,
+    "task_size": "very_small",
+    "template_id": "very_small_05",
+    "category": "very_small",
+    "prompt": "Convert fixture `fixtures/widget-store/billingPipeline.json` to interface `billingPipelineResponse` in `src/widget-store/billingPipeline.py`.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 2
+  },
+  {
+    "id": 13,
+    "task_size": "very_small",
+    "template_id": "very_small_04",
+    "category": "very_small",
+    "prompt": "Fix known null-check bug in `src/catalog-service/tenantRouter.py` line `59`; rerun `pytest tests/catalog-service/test_tenantrouter.py -q`.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 3
+  },
+  {
+    "id": 14,
+    "task_size": "very_small",
+    "template_id": "very_small_05",
+    "category": "very_small",
+    "prompt": "Convert fixture `fixtures/catalog-service/eventStore.json` to interface `eventStoreResponse` in `src/catalog-service/eventStore.py`.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 4
+  },
+  {
+    "id": 21,
+    "task_size": "very_small",
+    "template_id": "very_small_04",
+    "category": "very_small",
+    "prompt": "Fix known null-check bug in `src/order-sync/cacheLayer.py` line `37`; rerun `pytest tests/order-sync/test_cachelayer.py -q`.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 5
+  },
+  {
+    "id": 22,
+    "task_size": "very_small",
+    "template_id": "very_small_05",
+    "category": "very_small",
+    "prompt": "Convert fixture `fixtures/admin-console/billingPipeline.json` to interface `billingPipelineResponse` in `src/admin-console/billingPipeline.py`.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 6
+  },
+  {
+    "id": 29,
+    "task_size": "very_small",
+    "template_id": "very_small_04",
+    "category": "very_small",
+    "prompt": "Fix known null-check bug in `src/admin-console/cacheLayer.py` line `63`; rerun `pytest tests/admin-console/test_cachelayer.py -q`.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 7
+  },
+  {
+    "id": 30,
+    "task_size": "very_small",
+    "template_id": "very_small_05",
+    "category": "very_small",
+    "prompt": "Convert fixture `fixtures/admin-console/cacheLayer.json` to interface `cacheLayerResponse` in `src/admin-console/cacheLayer.py`.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 8
+  },
+  {
+    "id": 37,
+    "task_size": "very_small",
+    "template_id": "very_small_04",
+    "category": "very_small",
+    "prompt": "Fix known null-check bug in `src/catalog-service/authGateway.py` line `74`; rerun `pytest tests/catalog-service/test_authgateway.py -q`.",
+    "label": "local",
+    "capability_keywords_expected": [
+      "auth"
+    ],
+    "privacy_keywords_expected": [],
+    "split_id": 9
+  },
+  {
+    "id": 38,
+    "task_size": "very_small",
+    "template_id": "very_small_05",
+    "category": "very_small",
+    "prompt": "Convert fixture `fixtures/checkout-core/authGateway.json` to interface `authGatewayResponse` in `src/checkout-core/authGateway.py`.",
+    "label": "local",
+    "capability_keywords_expected": [
+      "auth"
+    ],
+    "privacy_keywords_expected": [],
+    "split_id": 10
+  },
+  {
+    "id": 45,
+    "task_size": "medium_small",
+    "template_id": "medium_small_04",
+    "category": "medium_small",
+    "prompt": "Choose index changes for `src/checkout-core/cacheLayer.py` using EXPLAIN output and justify tradeoffs.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 11
+  },
+  {
+    "id": 46,
+    "task_size": "medium_small",
+    "template_id": "medium_small_05",
+    "category": "medium_small",
+    "prompt": "Triage intermittent timeout in `widget-store` with partial traces; propose evidence-first next steps.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 12
+  },
+  {
+    "id": 53,
+    "task_size": "medium_small",
+    "template_id": "medium_small_04",
+    "category": "medium_small",
+    "prompt": "Choose index changes for `src/catalog-service/authGateway.py` using EXPLAIN output and justify tradeoffs.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "auth"
+    ],
+    "privacy_keywords_expected": [],
+    "split_id": 13
+  },
+  {
+    "id": 54,
+    "task_size": "medium_small",
+    "template_id": "medium_small_05",
+    "category": "medium_small",
+    "prompt": "Triage intermittent timeout in `checkout-core` with partial traces; propose evidence-first next steps.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 14
+  },
+  {
+    "id": 61,
+    "task_size": "medium_small",
+    "template_id": "medium_small_04",
+    "category": "medium_small",
+    "prompt": "Choose index changes for `src/report-worker/billingPipeline.py` using EXPLAIN output and justify tradeoffs.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 15
+  },
+  {
+    "id": 62,
+    "task_size": "medium_small",
+    "template_id": "medium_small_05",
+    "category": "medium_small",
+    "prompt": "Triage intermittent timeout in `widget-store` with partial traces; propose evidence-first next steps.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 16
+  },
+  {
+    "id": 69,
+    "task_size": "medium_small",
+    "template_id": "medium_small_04",
+    "category": "medium_small",
+    "prompt": "Choose index changes for `src/report-worker/cacheLayer.py` using EXPLAIN output and justify tradeoffs.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 17
+  },
+  {
+    "id": 70,
+    "task_size": "medium_small",
+    "template_id": "medium_small_05",
+    "category": "medium_small",
+    "prompt": "Triage intermittent timeout in `report-worker` with partial traces; propose evidence-first next steps.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 18
+  },
+  {
+    "id": 77,
+    "task_size": "medium_small",
+    "template_id": "medium_small_04",
+    "category": "medium_small",
+    "prompt": "Choose index changes for `src/order-sync/cacheLayer.py` using EXPLAIN output and justify tradeoffs.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 19
+  },
+  {
+    "id": 78,
+    "task_size": "medium_small",
+    "template_id": "medium_small_05",
+    "category": "medium_small",
+    "prompt": "Triage intermittent timeout in `admin-console` with partial traces; propose evidence-first next steps.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 20
+  },
+  {
+    "id": 85,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_04",
+    "category": "heavy_small",
+    "prompt": "Create local-only sanitation plan for production dump with customer data and token fields.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [
+      "customer data",
+      "production dump",
+      "token"
+    ],
+    "split_id": 21
+  },
+  {
+    "id": 86,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_05",
+    "category": "heavy_small",
+    "prompt": "Perform security review on auth token validation and secret rotation policy for `admin-console`.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "security",
+      "auth"
+    ],
+    "privacy_keywords_expected": [
+      "secret",
+      "token"
+    ],
+    "split_id": 22
+  },
+  {
+    "id": 93,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_04",
+    "category": "heavy_small",
+    "prompt": "Create local-only sanitation plan for production dump with customer data and token fields.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [
+      "customer data",
+      "production dump",
+      "token"
+    ],
+    "split_id": 23
+  },
+  {
+    "id": 94,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_05",
+    "category": "heavy_small",
+    "prompt": "Perform security review on auth token validation and secret rotation policy for `checkout-core`.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "security",
+      "auth"
+    ],
+    "privacy_keywords_expected": [
+      "secret",
+      "token"
+    ],
+    "split_id": 24
+  },
+  {
+    "id": 101,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_04",
+    "category": "heavy_small",
+    "prompt": "Create local-only sanitation plan for production dump with customer data and token fields.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [
+      "customer data",
+      "production dump",
+      "token"
+    ],
+    "split_id": 25
+  },
+  {
+    "id": 102,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_05",
+    "category": "heavy_small",
+    "prompt": "Perform security review on auth token validation and secret rotation policy for `catalog-service`.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "security",
+      "auth"
+    ],
+    "privacy_keywords_expected": [
+      "secret",
+      "token"
+    ],
+    "split_id": 26
+  },
+  {
+    "id": 109,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_04",
+    "category": "heavy_small",
+    "prompt": "Create local-only sanitation plan for production dump with customer data and token fields.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [
+      "customer data",
+      "production dump",
+      "token"
+    ],
+    "split_id": 27
+  },
+  {
+    "id": 110,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_05",
+    "category": "heavy_small",
+    "prompt": "Perform security review on auth token validation and secret rotation policy for `report-worker`.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "security",
+      "auth"
+    ],
+    "privacy_keywords_expected": [
+      "secret",
+      "token"
+    ],
+    "split_id": 28
+  },
+  {
+    "id": 117,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_04",
+    "category": "heavy_small",
+    "prompt": "Create local-only sanitation plan for production dump with customer data and token fields.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [
+      "customer data",
+      "production dump",
+      "token"
+    ],
+    "split_id": 29
+  },
+  {
+    "id": 118,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_05",
+    "category": "heavy_small",
+    "prompt": "Perform security review on auth token validation and secret rotation policy for `report-worker`.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "security",
+      "auth"
+    ],
+    "privacy_keywords_expected": [
+      "secret",
+      "token"
+    ],
+    "split_id": 30
+  }
+]

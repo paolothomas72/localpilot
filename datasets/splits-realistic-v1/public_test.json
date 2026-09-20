@@ -1,0 +1,368 @@
+[
+  {
+    "id": 3,
+    "task_size": "very_small",
+    "template_id": "very_small_02",
+    "category": "very_small",
+    "prompt": "Write a docstring for `process_eventstore` in `src/order-sync/eventStore.py` with params and return.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 1
+  },
+  {
+    "id": 4,
+    "task_size": "very_small",
+    "template_id": "very_small_03",
+    "category": "very_small",
+    "prompt": "Reformat `src/admin-console/authGateway.py` for readability only; show diff before finish.",
+    "label": "local",
+    "capability_keywords_expected": [
+      "auth"
+    ],
+    "privacy_keywords_expected": [],
+    "split_id": 2
+  },
+  {
+    "id": 11,
+    "task_size": "very_small",
+    "template_id": "very_small_02",
+    "category": "very_small",
+    "prompt": "Write a docstring for `process_cachelayer` in `src/catalog-service/cacheLayer.py` with params and return.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 3
+  },
+  {
+    "id": 12,
+    "task_size": "very_small",
+    "template_id": "very_small_03",
+    "category": "very_small",
+    "prompt": "Reformat `src/admin-console/eventStore.py` for readability only; show diff before finish.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 4
+  },
+  {
+    "id": 19,
+    "task_size": "very_small",
+    "template_id": "very_small_02",
+    "category": "very_small",
+    "prompt": "Write a docstring for `process_billingpipeline` in `src/report-worker/billingPipeline.py` with params and return.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 5
+  },
+  {
+    "id": 20,
+    "task_size": "very_small",
+    "template_id": "very_small_03",
+    "category": "very_small",
+    "prompt": "Reformat `src/report-worker/authGateway.py` for readability only; show diff before finish.",
+    "label": "local",
+    "capability_keywords_expected": [
+      "auth"
+    ],
+    "privacy_keywords_expected": [],
+    "split_id": 6
+  },
+  {
+    "id": 27,
+    "task_size": "very_small",
+    "template_id": "very_small_02",
+    "category": "very_small",
+    "prompt": "Write a docstring for `process_eventstore` in `src/admin-console/eventStore.py` with params and return.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 7
+  },
+  {
+    "id": 28,
+    "task_size": "very_small",
+    "template_id": "very_small_03",
+    "category": "very_small",
+    "prompt": "Reformat `src/admin-console/authGateway.py` for readability only; show diff before finish.",
+    "label": "local",
+    "capability_keywords_expected": [
+      "auth"
+    ],
+    "privacy_keywords_expected": [],
+    "split_id": 8
+  },
+  {
+    "id": 35,
+    "task_size": "very_small",
+    "template_id": "very_small_02",
+    "category": "very_small",
+    "prompt": "Write a docstring for `process_tenantrouter` in `src/checkout-core/tenantRouter.py` with params and return.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 9
+  },
+  {
+    "id": 36,
+    "task_size": "very_small",
+    "template_id": "very_small_03",
+    "category": "very_small",
+    "prompt": "Reformat `src/order-sync/billingPipeline.py` for readability only; show diff before finish.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 10
+  },
+  {
+    "id": 43,
+    "task_size": "medium_small",
+    "template_id": "medium_small_02",
+    "category": "medium_small",
+    "prompt": "Analyze why `pytest tests/report-worker/test_sessionmanager.py -q` passes local but fails on hosted runner; rank top causes and patch YAML.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "hosted runner"
+    ],
+    "privacy_keywords_expected": [],
+    "split_id": 11
+  },
+  {
+    "id": 44,
+    "task_size": "medium_small",
+    "template_id": "medium_small_03",
+    "category": "medium_small",
+    "prompt": "Review `src/order-sync/tenantRouter.py` for auth/session mistakes and list severity-ranked issues.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "auth"
+    ],
+    "privacy_keywords_expected": [],
+    "split_id": 12
+  },
+  {
+    "id": 51,
+    "task_size": "medium_small",
+    "template_id": "medium_small_02",
+    "category": "medium_small",
+    "prompt": "Analyze why `pytest tests/admin-console/test_billingpipeline.py -q` passes local but fails on hosted runner; rank top causes and patch YAML.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "hosted runner"
+    ],
+    "privacy_keywords_expected": [],
+    "split_id": 13
+  },
+  {
+    "id": 52,
+    "task_size": "medium_small",
+    "template_id": "medium_small_03",
+    "category": "medium_small",
+    "prompt": "Review `src/report-worker/authGateway.py` for auth/session mistakes and list severity-ranked issues.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "auth"
+    ],
+    "privacy_keywords_expected": [],
+    "split_id": 14
+  },
+  {
+    "id": 59,
+    "task_size": "medium_small",
+    "template_id": "medium_small_02",
+    "category": "medium_small",
+    "prompt": "Analyze why `pytest tests/order-sync/test_eventstore.py -q` passes local but fails on hosted runner; rank top causes and patch YAML.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "hosted runner"
+    ],
+    "privacy_keywords_expected": [],
+    "split_id": 15
+  },
+  {
+    "id": 60,
+    "task_size": "medium_small",
+    "template_id": "medium_small_03",
+    "category": "medium_small",
+    "prompt": "Review `src/report-worker/eventStore.py` for auth/session mistakes and list severity-ranked issues.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "auth"
+    ],
+    "privacy_keywords_expected": [],
+    "split_id": 16
+  },
+  {
+    "id": 67,
+    "task_size": "medium_small",
+    "template_id": "medium_small_02",
+    "category": "medium_small",
+    "prompt": "Analyze why `pytest tests/admin-console/test_eventstore.py -q` passes local but fails on hosted runner; rank top causes and patch YAML.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "hosted runner"
+    ],
+    "privacy_keywords_expected": [],
+    "split_id": 17
+  },
+  {
+    "id": 68,
+    "task_size": "medium_small",
+    "template_id": "medium_small_03",
+    "category": "medium_small",
+    "prompt": "Review `src/order-sync/cacheLayer.py` for auth/session mistakes and list severity-ranked issues.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "auth"
+    ],
+    "privacy_keywords_expected": [],
+    "split_id": 18
+  },
+  {
+    "id": 75,
+    "task_size": "medium_small",
+    "template_id": "medium_small_02",
+    "category": "medium_small",
+    "prompt": "Analyze why `pytest tests/catalog-service/test_billingpipeline.py -q` passes local but fails on hosted runner; rank top causes and patch YAML.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "hosted runner"
+    ],
+    "privacy_keywords_expected": [],
+    "split_id": 19
+  },
+  {
+    "id": 76,
+    "task_size": "medium_small",
+    "template_id": "medium_small_03",
+    "category": "medium_small",
+    "prompt": "Review `src/report-worker/cacheLayer.py` for auth/session mistakes and list severity-ranked issues.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "auth"
+    ],
+    "privacy_keywords_expected": [],
+    "split_id": 20
+  },
+  {
+    "id": 83,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_02",
+    "category": "heavy_small",
+    "prompt": "Threat-model webhook ingestion in `report-worker` and propose phased mitigations.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 21
+  },
+  {
+    "id": 84,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_03",
+    "category": "heavy_small",
+    "prompt": "Plan outage response for `order-sync` with elevated 5xx and unclear root cause.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "outage"
+    ],
+    "privacy_keywords_expected": [],
+    "split_id": 22
+  },
+  {
+    "id": 91,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_02",
+    "category": "heavy_small",
+    "prompt": "Threat-model webhook ingestion in `order-sync` and propose phased mitigations.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 23
+  },
+  {
+    "id": 92,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_03",
+    "category": "heavy_small",
+    "prompt": "Plan outage response for `report-worker` with elevated 5xx and unclear root cause.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "outage"
+    ],
+    "privacy_keywords_expected": [],
+    "split_id": 24
+  },
+  {
+    "id": 99,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_02",
+    "category": "heavy_small",
+    "prompt": "Threat-model webhook ingestion in `order-sync` and propose phased mitigations.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 25
+  },
+  {
+    "id": 100,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_03",
+    "category": "heavy_small",
+    "prompt": "Plan outage response for `order-sync` with elevated 5xx and unclear root cause.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "outage"
+    ],
+    "privacy_keywords_expected": [],
+    "split_id": 26
+  },
+  {
+    "id": 107,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_02",
+    "category": "heavy_small",
+    "prompt": "Threat-model webhook ingestion in `report-worker` and propose phased mitigations.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 27
+  },
+  {
+    "id": 108,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_03",
+    "category": "heavy_small",
+    "prompt": "Plan outage response for `catalog-service` with elevated 5xx and unclear root cause.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "outage"
+    ],
+    "privacy_keywords_expected": [],
+    "split_id": 28
+  },
+  {
+    "id": 115,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_02",
+    "category": "heavy_small",
+    "prompt": "Threat-model webhook ingestion in `report-worker` and propose phased mitigations.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 29
+  },
+  {
+    "id": 116,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_03",
+    "category": "heavy_small",
+    "prompt": "Plan outage response for `report-worker` with elevated 5xx and unclear root cause.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "outage"
+    ],
+    "privacy_keywords_expected": [],
+    "split_id": 30
+  }
+]

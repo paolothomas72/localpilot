@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+*.gguf
+runs/
+localpilot.config.json
+.router-lock.json
+.DS_Store
+Thumbs.db
+LOCALPILOT-JOURNEY*.md

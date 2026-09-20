@@ -1,0 +1,9 @@
+{
+  "source": "C:\\Users\\paolo\\paseo-tool-workspaces\\cursor\\localpilot\\datasets\\promptpack-realistic-v1.json",
+  "counts": {
+    "dev": 30,
+    "public_test": 30,
+    "private_hold": 30
+  },
+  "rule": "Grouped by template_id per category: first2 dev, middle2 public, last2 private."
+}

@@ -1,0 +1,84 @@
+{
+  "notes": {
+    "goal": "Build a balanced one-by-one dataset for LocalPilot routing quality vs speed.",
+    "strategy": "Start small/fast, then mid-tier, then heavy models.",
+    "runtime": "Use --runtime ollama for ollama models and --runtime llamacpp for llama.cpp model IDs."
+  },
+  "priority_order": [
+    {
+      "id": 1,
+      "runtime": "ollama",
+      "model": "qwen3:4b-instruct-2507-q4_K_M",
+      "tier": "fast-baseline",
+      "reason": "Cheap/fast local baseline for routing throughput."
+    },
+    {
+      "id": 2,
+      "runtime": "ollama",
+      "model": "granite4microh-mvp64k:latest",
+      "tier": "fast-baseline",
+      "reason": "Very small model to stress low-latency behavior."
+    },
+    {
+      "id": 3,
+      "runtime": "ollama",
+      "model": "llama3.1:8b",
+      "tier": "balanced",
+      "reason": "Strong general baseline at manageable size."
+    },
+    {
+      "id": 4,
+      "runtime": "ollama",
+      "model": "qwen3:8b",
+      "tier": "balanced",
+      "reason": "Common 8B class for routing stability comparisons."
+    },
+    {
+      "id": 5,
+      "runtime": "ollama",
+      "model": "qwen3-8b-ft-agentic-v1:latest",
+      "tier": "balanced",
+      "reason": "Previously tested; useful anchor for regression checks."
+    },
+    {
+      "id": 6,
+      "runtime": "ollama",
+      "model": "gemma4:12b",
+      "tier": "quality-mid",
+      "reason": "Current strong performer in your prior tests."
+    },
+    {
+      "id": 7,
+      "runtime": "ollama",
+      "model": "cogito:14b",
+      "tier": "quality-mid",
+      "reason": "Higher-capacity reasoning model for quality lift check."
+    },
+    {
+      "id": 8,
+      "runtime": "ollama",
+      "model": "devstral-small-2-32k:latest",
+      "tier": "code-focused",
+      "reason": "Code-focused model to test routing improvements on dev tasks."
+    },
+    {
+      "id": 9,
+      "runtime": "llamacpp",
+      "model": "C:\\Users\\paolo\\AppData\\Local\\llama.cpp\\models\\Qwen3-Coder-30B-A3B-Instruct-Q4_K_M.gguf",
+      "tier": "heavy-gguf",
+      "reason": "High-capacity GGUF reference model for top-end local quality."
+    },
+    {
+      "id": 10,
+      "runtime": "ollama",
+      "model": "qwen3-coder:30b",
+      "tier": "heavy-ollama",
+      "reason": "Heavy code model to compare against llama.cpp GGUF behavior."
+    }
+  ],
+  "run_template": {
+    "ollama": "python tools\\run_test_pack_live.py --project . --runtime ollama --model \"<MODEL>\" --warmup-calls 2 --sleep-ms 150",
+    "llamacpp": "python tools\\run_test_pack_live.py --project . --runtime llamacpp --model \"<MODEL_OR_ID>\" --warmup-calls 3 --sleep-ms 250"
+  }
+}
+

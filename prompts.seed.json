@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "prompt": "Explain what this 12-line function does, line by line.",
+    "label": "local"
+  },
+  {
+    "id": 2,
+    "prompt": "Rename a variable from tmp to retryCount in one file.",
+    "label": "local"
+  },
+  {
+    "id": 3,
+    "prompt": "Convert this JSON response into a TypeScript interface.",
+    "label": "local"
+  },
+  {
+    "id": 4,
+    "prompt": "Write a regex for semantic version strings like 1.20.3.",
+    "label": "local"
+  },
+  {
+    "id": 5,
+    "prompt": "Add a docstring to one function with params and return value.",
+    "label": "local"
+  },
+  {
+    "id": 6,
+    "prompt": "Fix an off-by-one loop bug that is already identified.",
+    "label": "local"
+  },
+  {
+    "id": 7,
+    "prompt": "Reformat a 30-line SQL query without changing behavior.",
+    "label": "local"
+  },
+  {
+    "id": 8,
+    "prompt": "Translate a bash one-liner to equivalent PowerShell.",
+    "label": "local"
+  },
+  {
+    "id": 9,
+    "prompt": "Design caching architecture for a read-heavy multi-region service.",
+    "label": "cloud"
+  },
+  {
+    "id": 10,
+    "prompt": "Choose event sourcing vs CRUD for strict audit requirements.",
+    "label": "cloud"
+  },
+  {
+    "id": 11,
+    "prompt": "Diagnose an intermittent production database deadlock.",
+    "label": "cloud"
+  },
+  {
+    "id": 12,
+    "prompt": "Plan zero-downtime migration to per-tenant shards.",
+    "label": "cloud"
+  },
+  {
+    "id": 13,
+    "prompt": "Review auth token validation diff for security holes.",
+    "label": "cloud"
+  },
+  {
+    "id": 14,
+    "prompt": "Design retry and backoff to avoid amplifying upstream outages.",
+    "label": "cloud"
+  },
+  {
+    "id": 15,
+    "prompt": "Write tests for a pure function with three branches.",
+    "label": "local"
+  },
+  {
+    "id": 16,
+    "prompt": "Explain why CI passes locally but fails on hosted runner.",
+    "label": "cloud"
+  },
+  {
+    "id": 17,
+    "prompt": "Refactor a 300-line class into smaller single-responsibility units.",
+    "label": "local"
+  },
+  {
+    "id": 18,
+    "prompt": "Read a 40-line stack trace and summarize likely root cause.",
+    "label": "cloud"
+  },
+  {
+    "id": 19,
+    "prompt": "Choose an index for a slow query using EXPLAIN output.",
+    "label": "local"
+  },
+  {
+    "id": 20,
+    "prompt": "Write a commit message for an already staged diff.",
+    "label": "local"
+  }
+]

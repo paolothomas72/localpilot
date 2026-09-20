@@ -1,0 +1,842 @@
+[
+  {
+    "id": 1,
+    "prompt": "Rename variable `orderSync` to `backoffPolicy` in one file only.",
+    "label": "local",
+    "category": "mechanical_edits",
+    "template_id": "mechanical_edits:1"
+  },
+  {
+    "id": 2,
+    "prompt": "Add type annotations to `retryWorker` function parameters in this file.",
+    "label": "local",
+    "category": "mechanical_edits",
+    "template_id": "mechanical_edits:2"
+  },
+  {
+    "id": 3,
+    "prompt": "Reformat this `billingPipeline` snippet for readability without behavior change.",
+    "label": "local",
+    "category": "mechanical_edits",
+    "template_id": "mechanical_edits:3"
+  },
+  {
+    "id": 4,
+    "prompt": "Write a concise docstring for `authGateway` with params and returns.",
+    "label": "local",
+    "category": "mechanical_edits",
+    "template_id": "mechanical_edits:4"
+  },
+  {
+    "id": 5,
+    "prompt": "Convert this JSON payload shape into a `cacheLayer` interface.",
+    "label": "local",
+    "category": "mechanical_edits",
+    "template_id": "mechanical_edits:5"
+  },
+  {
+    "id": 6,
+    "prompt": "Update import path from `tenantRouter` to `requestSigner` in this module.",
+    "label": "local",
+    "category": "mechanical_edits",
+    "template_id": "mechanical_edits:6"
+  },
+  {
+    "id": 7,
+    "prompt": "Rename variable `queryPlanner` to `tokenVerifier` in one file only.",
+    "label": "local",
+    "category": "mechanical_edits",
+    "template_id": "mechanical_edits:1"
+  },
+  {
+    "id": 8,
+    "prompt": "Add type annotations to `ingestionFlow` function parameters in this file.",
+    "label": "local",
+    "category": "mechanical_edits",
+    "template_id": "mechanical_edits:2"
+  },
+  {
+    "id": 9,
+    "prompt": "Reformat this `eventStore` snippet for readability without behavior change.",
+    "label": "local",
+    "category": "mechanical_edits",
+    "template_id": "mechanical_edits:3"
+  },
+  {
+    "id": 10,
+    "prompt": "Write a concise docstring for `sessionManager` with params and returns.",
+    "label": "local",
+    "category": "mechanical_edits",
+    "template_id": "mechanical_edits:4"
+  },
+  {
+    "id": 11,
+    "prompt": "Convert this JSON payload shape into a `orderSync` interface.",
+    "label": "local",
+    "category": "mechanical_edits",
+    "template_id": "mechanical_edits:5"
+  },
+  {
+    "id": 12,
+    "prompt": "Update import path from `retryWorker` to `batchUpdater` in this module.",
+    "label": "local",
+    "category": "mechanical_edits",
+    "template_id": "mechanical_edits:6"
+  },
+  {
+    "id": 13,
+    "prompt": "Rename variable `billingPipeline` to `readReplica` in one file only.",
+    "label": "local",
+    "category": "mechanical_edits",
+    "template_id": "mechanical_edits:1"
+  },
+  {
+    "id": 14,
+    "prompt": "Add type annotations to `authGateway` function parameters in this file.",
+    "label": "local",
+    "category": "mechanical_edits",
+    "template_id": "mechanical_edits:2"
+  },
+  {
+    "id": 15,
+    "prompt": "Reformat this `cacheLayer` snippet for readability without behavior change.",
+    "label": "local",
+    "category": "mechanical_edits",
+    "template_id": "mechanical_edits:3"
+  },
+  {
+    "id": 16,
+    "prompt": "Write a concise docstring for `tenantRouter` with params and returns.",
+    "label": "local",
+    "category": "mechanical_edits",
+    "template_id": "mechanical_edits:4"
+  },
+  {
+    "id": 17,
+    "prompt": "Convert this JSON payload shape into a `queryPlanner` interface.",
+    "label": "local",
+    "category": "mechanical_edits",
+    "template_id": "mechanical_edits:5"
+  },
+  {
+    "id": 18,
+    "prompt": "Update import path from `ingestionFlow` to `messageQueue` in this module.",
+    "label": "local",
+    "category": "mechanical_edits",
+    "template_id": "mechanical_edits:6"
+  },
+  {
+    "id": 19,
+    "prompt": "Rename variable `eventStore` to `eventSourcing` in one file only.",
+    "label": "local",
+    "category": "mechanical_edits",
+    "template_id": "mechanical_edits:1"
+  },
+  {
+    "id": 20,
+    "prompt": "Add type annotations to `sessionManager` function parameters in this file.",
+    "label": "local",
+    "category": "mechanical_edits",
+    "template_id": "mechanical_edits:2"
+  },
+  {
+    "id": 21,
+    "prompt": "Fix an off-by-one bug in `orderSync` loop; root cause already known.",
+    "label": "local",
+    "category": "targeted_bugfix",
+    "template_id": "targeted_bugfix:1"
+  },
+  {
+    "id": 22,
+    "prompt": "Correct null-check ordering in `retryWorker` to avoid crash.",
+    "label": "local",
+    "category": "targeted_bugfix",
+    "template_id": "targeted_bugfix:2"
+  },
+  {
+    "id": 23,
+    "prompt": "Patch typo in `billingPipeline` config key that breaks startup.",
+    "label": "local",
+    "category": "targeted_bugfix",
+    "template_id": "targeted_bugfix:3"
+  },
+  {
+    "id": 24,
+    "prompt": "Replace deprecated `authGateway` call with modern equivalent.",
+    "label": "local",
+    "category": "targeted_bugfix",
+    "template_id": "targeted_bugfix:4"
+  },
+  {
+    "id": 25,
+    "prompt": "Fix unit test `cacheLayer` expectations after harmless refactor.",
+    "label": "local",
+    "category": "targeted_bugfix",
+    "template_id": "targeted_bugfix:5"
+  },
+  {
+    "id": 26,
+    "prompt": "Repair regex `tenantRouter` to match semantic versions correctly.",
+    "label": "local",
+    "category": "targeted_bugfix",
+    "template_id": "targeted_bugfix:6"
+  },
+  {
+    "id": 27,
+    "prompt": "Fix an off-by-one bug in `queryPlanner` loop; root cause already known.",
+    "label": "local",
+    "category": "targeted_bugfix",
+    "template_id": "targeted_bugfix:1"
+  },
+  {
+    "id": 28,
+    "prompt": "Correct null-check ordering in `ingestionFlow` to avoid crash.",
+    "label": "local",
+    "category": "targeted_bugfix",
+    "template_id": "targeted_bugfix:2"
+  },
+  {
+    "id": 29,
+    "prompt": "Patch typo in `eventStore` config key that breaks startup.",
+    "label": "local",
+    "category": "targeted_bugfix",
+    "template_id": "targeted_bugfix:3"
+  },
+  {
+    "id": 30,
+    "prompt": "Replace deprecated `sessionManager` call with modern equivalent.",
+    "label": "local",
+    "category": "targeted_bugfix",
+    "template_id": "targeted_bugfix:4"
+  },
+  {
+    "id": 31,
+    "prompt": "Fix unit test `orderSync` expectations after harmless refactor.",
+    "label": "local",
+    "category": "targeted_bugfix",
+    "template_id": "targeted_bugfix:5"
+  },
+  {
+    "id": 32,
+    "prompt": "Repair regex `retryWorker` to match semantic versions correctly.",
+    "label": "local",
+    "category": "targeted_bugfix",
+    "template_id": "targeted_bugfix:6"
+  },
+  {
+    "id": 33,
+    "prompt": "Fix an off-by-one bug in `billingPipeline` loop; root cause already known.",
+    "label": "local",
+    "category": "targeted_bugfix",
+    "template_id": "targeted_bugfix:1"
+  },
+  {
+    "id": 34,
+    "prompt": "Correct null-check ordering in `authGateway` to avoid crash.",
+    "label": "local",
+    "category": "targeted_bugfix",
+    "template_id": "targeted_bugfix:2"
+  },
+  {
+    "id": 35,
+    "prompt": "Patch typo in `cacheLayer` config key that breaks startup.",
+    "label": "local",
+    "category": "targeted_bugfix",
+    "template_id": "targeted_bugfix:3"
+  },
+  {
+    "id": 36,
+    "prompt": "Replace deprecated `tenantRouter` call with modern equivalent.",
+    "label": "local",
+    "category": "targeted_bugfix",
+    "template_id": "targeted_bugfix:4"
+  },
+  {
+    "id": 37,
+    "prompt": "Fix unit test `queryPlanner` expectations after harmless refactor.",
+    "label": "local",
+    "category": "targeted_bugfix",
+    "template_id": "targeted_bugfix:5"
+  },
+  {
+    "id": 38,
+    "prompt": "Repair regex `ingestionFlow` to match semantic versions correctly.",
+    "label": "local",
+    "category": "targeted_bugfix",
+    "template_id": "targeted_bugfix:6"
+  },
+  {
+    "id": 39,
+    "prompt": "Fix an off-by-one bug in `eventStore` loop; root cause already known.",
+    "label": "local",
+    "category": "targeted_bugfix",
+    "template_id": "targeted_bugfix:1"
+  },
+  {
+    "id": 40,
+    "prompt": "Correct null-check ordering in `sessionManager` to avoid crash.",
+    "label": "local",
+    "category": "targeted_bugfix",
+    "template_id": "targeted_bugfix:2"
+  },
+  {
+    "id": 41,
+    "prompt": "Diagnose intermittent `orderSync` deadlocks visible only under production load.",
+    "label": "cloud",
+    "category": "diagnosis_and_ops",
+    "template_id": "diagnosis_and_ops:1"
+  },
+  {
+    "id": 42,
+    "prompt": "Explain why CI passes locally but fails on hosted runner for `retryWorker`.",
+    "label": "cloud",
+    "category": "diagnosis_and_ops",
+    "template_id": "diagnosis_and_ops:2"
+  },
+  {
+    "id": 43,
+    "prompt": "Summarize likely root cause from this long `billingPipeline` stack trace.",
+    "label": "cloud",
+    "category": "diagnosis_and_ops",
+    "template_id": "diagnosis_and_ops:3"
+  },
+  {
+    "id": 44,
+    "prompt": "Design rollback plan for `authGateway` deployment showing elevated error rates.",
+    "label": "cloud",
+    "category": "diagnosis_and_ops",
+    "template_id": "diagnosis_and_ops:4"
+  },
+  {
+    "id": 45,
+    "prompt": "Investigate memory leak pattern in `cacheLayer` service over 24h.",
+    "label": "cloud",
+    "category": "diagnosis_and_ops",
+    "template_id": "diagnosis_and_ops:5"
+  },
+  {
+    "id": 46,
+    "prompt": "Triage flaky integration test `tenantRouter` with nondeterministic timing failures.",
+    "label": "cloud",
+    "category": "diagnosis_and_ops",
+    "template_id": "diagnosis_and_ops:6"
+  },
+  {
+    "id": 47,
+    "prompt": "Diagnose intermittent `queryPlanner` deadlocks visible only under production load.",
+    "label": "cloud",
+    "category": "diagnosis_and_ops",
+    "template_id": "diagnosis_and_ops:1"
+  },
+  {
+    "id": 48,
+    "prompt": "Explain why CI passes locally but fails on hosted runner for `ingestionFlow`.",
+    "label": "cloud",
+    "category": "diagnosis_and_ops",
+    "template_id": "diagnosis_and_ops:2"
+  },
+  {
+    "id": 49,
+    "prompt": "Summarize likely root cause from this long `eventStore` stack trace.",
+    "label": "cloud",
+    "category": "diagnosis_and_ops",
+    "template_id": "diagnosis_and_ops:3"
+  },
+  {
+    "id": 50,
+    "prompt": "Design rollback plan for `sessionManager` deployment showing elevated error rates.",
+    "label": "cloud",
+    "category": "diagnosis_and_ops",
+    "template_id": "diagnosis_and_ops:4"
+  },
+  {
+    "id": 51,
+    "prompt": "Investigate memory leak pattern in `orderSync` service over 24h.",
+    "label": "cloud",
+    "category": "diagnosis_and_ops",
+    "template_id": "diagnosis_and_ops:5"
+  },
+  {
+    "id": 52,
+    "prompt": "Triage flaky integration test `retryWorker` with nondeterministic timing failures.",
+    "label": "cloud",
+    "category": "diagnosis_and_ops",
+    "template_id": "diagnosis_and_ops:6"
+  },
+  {
+    "id": 53,
+    "prompt": "Diagnose intermittent `billingPipeline` deadlocks visible only under production load.",
+    "label": "cloud",
+    "category": "diagnosis_and_ops",
+    "template_id": "diagnosis_and_ops:1"
+  },
+  {
+    "id": 54,
+    "prompt": "Explain why CI passes locally but fails on hosted runner for `authGateway`.",
+    "label": "cloud",
+    "category": "diagnosis_and_ops",
+    "template_id": "diagnosis_and_ops:2"
+  },
+  {
+    "id": 55,
+    "prompt": "Summarize likely root cause from this long `cacheLayer` stack trace.",
+    "label": "cloud",
+    "category": "diagnosis_and_ops",
+    "template_id": "diagnosis_and_ops:3"
+  },
+  {
+    "id": 56,
+    "prompt": "Design rollback plan for `tenantRouter` deployment showing elevated error rates.",
+    "label": "cloud",
+    "category": "diagnosis_and_ops",
+    "template_id": "diagnosis_and_ops:4"
+  },
+  {
+    "id": 57,
+    "prompt": "Investigate memory leak pattern in `queryPlanner` service over 24h.",
+    "label": "cloud",
+    "category": "diagnosis_and_ops",
+    "template_id": "diagnosis_and_ops:5"
+  },
+  {
+    "id": 58,
+    "prompt": "Triage flaky integration test `ingestionFlow` with nondeterministic timing failures.",
+    "label": "cloud",
+    "category": "diagnosis_and_ops",
+    "template_id": "diagnosis_and_ops:6"
+  },
+  {
+    "id": 59,
+    "prompt": "Diagnose intermittent `eventStore` deadlocks visible only under production load.",
+    "label": "cloud",
+    "category": "diagnosis_and_ops",
+    "template_id": "diagnosis_and_ops:1"
+  },
+  {
+    "id": 60,
+    "prompt": "Explain why CI passes locally but fails on hosted runner for `sessionManager`.",
+    "label": "cloud",
+    "category": "diagnosis_and_ops",
+    "template_id": "diagnosis_and_ops:2"
+  },
+  {
+    "id": 61,
+    "prompt": "Choose between `orderSync` and `backoffPolicy` architecture for strict audit needs.",
+    "label": "cloud",
+    "category": "architecture_and_tradeoffs",
+    "template_id": "architecture_and_tradeoffs:1"
+  },
+  {
+    "id": 62,
+    "prompt": "Design multi-region caching policy for `retryWorker` read-heavy workload.",
+    "label": "cloud",
+    "category": "architecture_and_tradeoffs",
+    "template_id": "architecture_and_tradeoffs:2"
+  },
+  {
+    "id": 63,
+    "prompt": "Plan zero-downtime migration from shared DB to `billingPipeline` sharded model.",
+    "label": "cloud",
+    "category": "architecture_and_tradeoffs",
+    "template_id": "architecture_and_tradeoffs:3"
+  },
+  {
+    "id": 64,
+    "prompt": "Define retry/backoff strategy to avoid amplifying `authGateway` upstream outages.",
+    "label": "cloud",
+    "category": "architecture_and_tradeoffs",
+    "template_id": "architecture_and_tradeoffs:4"
+  },
+  {
+    "id": 65,
+    "prompt": "Evaluate queue vs RPC for `cacheLayer` reliability and latency tradeoffs.",
+    "label": "cloud",
+    "category": "architecture_and_tradeoffs",
+    "template_id": "architecture_and_tradeoffs:5"
+  },
+  {
+    "id": 66,
+    "prompt": "Propose tenancy isolation strategy for `tenantRouter` with compliance constraints.",
+    "label": "cloud",
+    "category": "architecture_and_tradeoffs",
+    "template_id": "architecture_and_tradeoffs:6"
+  },
+  {
+    "id": 67,
+    "prompt": "Choose between `queryPlanner` and `tokenVerifier` architecture for strict audit needs.",
+    "label": "cloud",
+    "category": "architecture_and_tradeoffs",
+    "template_id": "architecture_and_tradeoffs:1"
+  },
+  {
+    "id": 68,
+    "prompt": "Design multi-region caching policy for `ingestionFlow` read-heavy workload.",
+    "label": "cloud",
+    "category": "architecture_and_tradeoffs",
+    "template_id": "architecture_and_tradeoffs:2"
+  },
+  {
+    "id": 69,
+    "prompt": "Plan zero-downtime migration from shared DB to `eventStore` sharded model.",
+    "label": "cloud",
+    "category": "architecture_and_tradeoffs",
+    "template_id": "architecture_and_tradeoffs:3"
+  },
+  {
+    "id": 70,
+    "prompt": "Define retry/backoff strategy to avoid amplifying `sessionManager` upstream outages.",
+    "label": "cloud",
+    "category": "architecture_and_tradeoffs",
+    "template_id": "architecture_and_tradeoffs:4"
+  },
+  {
+    "id": 71,
+    "prompt": "Evaluate queue vs RPC for `orderSync` reliability and latency tradeoffs.",
+    "label": "cloud",
+    "category": "architecture_and_tradeoffs",
+    "template_id": "architecture_and_tradeoffs:5"
+  },
+  {
+    "id": 72,
+    "prompt": "Propose tenancy isolation strategy for `retryWorker` with compliance constraints.",
+    "label": "cloud",
+    "category": "architecture_and_tradeoffs",
+    "template_id": "architecture_and_tradeoffs:6"
+  },
+  {
+    "id": 73,
+    "prompt": "Choose between `billingPipeline` and `readReplica` architecture for strict audit needs.",
+    "label": "cloud",
+    "category": "architecture_and_tradeoffs",
+    "template_id": "architecture_and_tradeoffs:1"
+  },
+  {
+    "id": 74,
+    "prompt": "Design multi-region caching policy for `authGateway` read-heavy workload.",
+    "label": "cloud",
+    "category": "architecture_and_tradeoffs",
+    "template_id": "architecture_and_tradeoffs:2"
+  },
+  {
+    "id": 75,
+    "prompt": "Plan zero-downtime migration from shared DB to `cacheLayer` sharded model.",
+    "label": "cloud",
+    "category": "architecture_and_tradeoffs",
+    "template_id": "architecture_and_tradeoffs:3"
+  },
+  {
+    "id": 76,
+    "prompt": "Define retry/backoff strategy to avoid amplifying `tenantRouter` upstream outages.",
+    "label": "cloud",
+    "category": "architecture_and_tradeoffs",
+    "template_id": "architecture_and_tradeoffs:4"
+  },
+  {
+    "id": 77,
+    "prompt": "Evaluate queue vs RPC for `queryPlanner` reliability and latency tradeoffs.",
+    "label": "cloud",
+    "category": "architecture_and_tradeoffs",
+    "template_id": "architecture_and_tradeoffs:5"
+  },
+  {
+    "id": 78,
+    "prompt": "Propose tenancy isolation strategy for `ingestionFlow` with compliance constraints.",
+    "label": "cloud",
+    "category": "architecture_and_tradeoffs",
+    "template_id": "architecture_and_tradeoffs:6"
+  },
+  {
+    "id": 79,
+    "prompt": "Choose between `eventStore` and `eventSourcing` architecture for strict audit needs.",
+    "label": "cloud",
+    "category": "architecture_and_tradeoffs",
+    "template_id": "architecture_and_tradeoffs:1"
+  },
+  {
+    "id": 80,
+    "prompt": "Design multi-region caching policy for `sessionManager` read-heavy workload.",
+    "label": "cloud",
+    "category": "architecture_and_tradeoffs",
+    "template_id": "architecture_and_tradeoffs:2"
+  },
+  {
+    "id": 81,
+    "prompt": "Review auth token validation changes in `orderSync` and identify security gaps.",
+    "label": "cloud",
+    "category": "security_review",
+    "template_id": "security_review:1"
+  },
+  {
+    "id": 82,
+    "prompt": "Assess risk of `retryWorker` request-signing implementation under replay attacks.",
+    "label": "cloud",
+    "category": "security_review",
+    "template_id": "security_review:2"
+  },
+  {
+    "id": 83,
+    "prompt": "Design secret-rotation workflow for `billingPipeline` with zero service interruption.",
+    "label": "cloud",
+    "category": "security_review",
+    "template_id": "security_review:3"
+  },
+  {
+    "id": 84,
+    "prompt": "Threat-model `authGateway` webhook ingestion path and propose mitigations.",
+    "label": "cloud",
+    "category": "security_review",
+    "template_id": "security_review:4"
+  },
+  {
+    "id": 85,
+    "prompt": "Evaluate permission boundary changes in `cacheLayer` IAM policy diff.",
+    "label": "cloud",
+    "category": "security_review",
+    "template_id": "security_review:5"
+  },
+  {
+    "id": 86,
+    "prompt": "Analyze SSRF safeguards for `tenantRouter` URL-fetch pipeline.",
+    "label": "cloud",
+    "category": "security_review",
+    "template_id": "security_review:6"
+  },
+  {
+    "id": 87,
+    "prompt": "Review auth token validation changes in `queryPlanner` and identify security gaps.",
+    "label": "cloud",
+    "category": "security_review",
+    "template_id": "security_review:1"
+  },
+  {
+    "id": 88,
+    "prompt": "Assess risk of `ingestionFlow` request-signing implementation under replay attacks.",
+    "label": "cloud",
+    "category": "security_review",
+    "template_id": "security_review:2"
+  },
+  {
+    "id": 89,
+    "prompt": "Design secret-rotation workflow for `eventStore` with zero service interruption.",
+    "label": "cloud",
+    "category": "security_review",
+    "template_id": "security_review:3"
+  },
+  {
+    "id": 90,
+    "prompt": "Threat-model `sessionManager` webhook ingestion path and propose mitigations.",
+    "label": "cloud",
+    "category": "security_review",
+    "template_id": "security_review:4"
+  },
+  {
+    "id": 91,
+    "prompt": "Evaluate permission boundary changes in `orderSync` IAM policy diff.",
+    "label": "cloud",
+    "category": "security_review",
+    "template_id": "security_review:5"
+  },
+  {
+    "id": 92,
+    "prompt": "Analyze SSRF safeguards for `retryWorker` URL-fetch pipeline.",
+    "label": "cloud",
+    "category": "security_review",
+    "template_id": "security_review:6"
+  },
+  {
+    "id": 93,
+    "prompt": "Review auth token validation changes in `billingPipeline` and identify security gaps.",
+    "label": "cloud",
+    "category": "security_review",
+    "template_id": "security_review:1"
+  },
+  {
+    "id": 94,
+    "prompt": "Assess risk of `authGateway` request-signing implementation under replay attacks.",
+    "label": "cloud",
+    "category": "security_review",
+    "template_id": "security_review:2"
+  },
+  {
+    "id": 95,
+    "prompt": "Design secret-rotation workflow for `cacheLayer` with zero service interruption.",
+    "label": "cloud",
+    "category": "security_review",
+    "template_id": "security_review:3"
+  },
+  {
+    "id": 96,
+    "prompt": "Threat-model `tenantRouter` webhook ingestion path and propose mitigations.",
+    "label": "cloud",
+    "category": "security_review",
+    "template_id": "security_review:4"
+  },
+  {
+    "id": 97,
+    "prompt": "Evaluate permission boundary changes in `queryPlanner` IAM policy diff.",
+    "label": "cloud",
+    "category": "security_review",
+    "template_id": "security_review:5"
+  },
+  {
+    "id": 98,
+    "prompt": "Analyze SSRF safeguards for `ingestionFlow` URL-fetch pipeline.",
+    "label": "cloud",
+    "category": "security_review",
+    "template_id": "security_review:6"
+  },
+  {
+    "id": 99,
+    "prompt": "Review auth token validation changes in `eventStore` and identify security gaps.",
+    "label": "cloud",
+    "category": "security_review",
+    "template_id": "security_review:1"
+  },
+  {
+    "id": 100,
+    "prompt": "Assess risk of `sessionManager` request-signing implementation under replay attacks.",
+    "label": "cloud",
+    "category": "security_review",
+    "template_id": "security_review:2"
+  },
+  {
+    "id": 101,
+    "prompt": "Refactor `orderSync` 300-line class into smaller units while preserving behavior.",
+    "label": "cloud",
+    "category": "ambiguous_boundary",
+    "template_id": "ambiguous_boundary:1"
+  },
+  {
+    "id": 102,
+    "prompt": "Choose an index for slow `retryWorker` query given schema and EXPLAIN output.",
+    "label": "cloud",
+    "category": "ambiguous_boundary",
+    "template_id": "ambiguous_boundary:2"
+  },
+  {
+    "id": 103,
+    "prompt": "Propose test strategy for `billingPipeline` module with sparse existing coverage.",
+    "label": "cloud",
+    "category": "ambiguous_boundary",
+    "template_id": "ambiguous_boundary:3"
+  },
+  {
+    "id": 104,
+    "prompt": "Assess whether `authGateway` should be split into services or kept modular monolith.",
+    "label": "cloud",
+    "category": "ambiguous_boundary",
+    "template_id": "ambiguous_boundary:4"
+  },
+  {
+    "id": 105,
+    "prompt": "Review `cacheLayer` API contract changes and backward compatibility risk.",
+    "label": "cloud",
+    "category": "ambiguous_boundary",
+    "template_id": "ambiguous_boundary:5"
+  },
+  {
+    "id": 106,
+    "prompt": "Debug sporadic timeout in `tenantRouter` where logs are partially missing.",
+    "label": "cloud",
+    "category": "ambiguous_boundary",
+    "template_id": "ambiguous_boundary:6"
+  },
+  {
+    "id": 107,
+    "prompt": "Refactor `queryPlanner` 300-line class into smaller units while preserving behavior.",
+    "label": "cloud",
+    "category": "ambiguous_boundary",
+    "template_id": "ambiguous_boundary:1"
+  },
+  {
+    "id": 108,
+    "prompt": "Choose an index for slow `ingestionFlow` query given schema and EXPLAIN output.",
+    "label": "cloud",
+    "category": "ambiguous_boundary",
+    "template_id": "ambiguous_boundary:2"
+  },
+  {
+    "id": 109,
+    "prompt": "Propose test strategy for `eventStore` module with sparse existing coverage.",
+    "label": "cloud",
+    "category": "ambiguous_boundary",
+    "template_id": "ambiguous_boundary:3"
+  },
+  {
+    "id": 110,
+    "prompt": "Assess whether `sessionManager` should be split into services or kept modular monolith.",
+    "label": "cloud",
+    "category": "ambiguous_boundary",
+    "template_id": "ambiguous_boundary:4"
+  },
+  {
+    "id": 111,
+    "prompt": "Review `orderSync` API contract changes and backward compatibility risk.",
+    "label": "cloud",
+    "category": "ambiguous_boundary",
+    "template_id": "ambiguous_boundary:5"
+  },
+  {
+    "id": 112,
+    "prompt": "Debug sporadic timeout in `retryWorker` where logs are partially missing.",
+    "label": "cloud",
+    "category": "ambiguous_boundary",
+    "template_id": "ambiguous_boundary:6"
+  },
+  {
+    "id": 113,
+    "prompt": "Refactor `billingPipeline` 300-line class into smaller units while preserving behavior.",
+    "label": "cloud",
+    "category": "ambiguous_boundary",
+    "template_id": "ambiguous_boundary:1"
+  },
+  {
+    "id": 114,
+    "prompt": "Choose an index for slow `authGateway` query given schema and EXPLAIN output.",
+    "label": "cloud",
+    "category": "ambiguous_boundary",
+    "template_id": "ambiguous_boundary:2"
+  },
+  {
+    "id": 115,
+    "prompt": "Propose test strategy for `cacheLayer` module with sparse existing coverage.",
+    "label": "cloud",
+    "category": "ambiguous_boundary",
+    "template_id": "ambiguous_boundary:3"
+  },
+  {
+    "id": 116,
+    "prompt": "Assess whether `tenantRouter` should be split into services or kept modular monolith.",
+    "label": "cloud",
+    "category": "ambiguous_boundary",
+    "template_id": "ambiguous_boundary:4"
+  },
+  {
+    "id": 117,
+    "prompt": "Review `queryPlanner` API contract changes and backward compatibility risk.",
+    "label": "cloud",
+    "category": "ambiguous_boundary",
+    "template_id": "ambiguous_boundary:5"
+  },
+  {
+    "id": 118,
+    "prompt": "Debug sporadic timeout in `ingestionFlow` where logs are partially missing.",
+    "label": "cloud",
+    "category": "ambiguous_boundary",
+    "template_id": "ambiguous_boundary:6"
+  },
+  {
+    "id": 119,
+    "prompt": "Refactor `eventStore` 300-line class into smaller units while preserving behavior.",
+    "label": "cloud",
+    "category": "ambiguous_boundary",
+    "template_id": "ambiguous_boundary:1"
+  },
+  {
+    "id": 120,
+    "prompt": "Choose an index for slow `sessionManager` query given schema and EXPLAIN output.",
+    "label": "cloud",
+    "category": "ambiguous_boundary",
+    "template_id": "ambiguous_boundary:2"
+  }
+]

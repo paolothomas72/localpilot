@@ -1,0 +1,9 @@
+{
+  "source": "C:\\Users\\paolo\\paseo-tool-workspaces\\cursor\\localpilot\\datasets\\prompts.expanded.120.json",
+  "counts": {
+    "dev": 48,
+    "public_test": 36,
+    "private_hold": 36
+  },
+  "rule": "Grouped by template_id per category: first2 dev, middle2 public, last2 private."
+}

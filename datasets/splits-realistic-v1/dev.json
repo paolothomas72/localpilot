@@ -1,0 +1,365 @@
+[
+  {
+    "id": 1,
+    "task_size": "very_small",
+    "template_id": "very_small_00",
+    "category": "very_small",
+    "prompt": "Rename `tmpCount` to `retryCount` in `src/widget-store/authGateway.py` and run `pytest tests/widget-store/test_authgateway.py -q` only.",
+    "label": "local",
+    "capability_keywords_expected": [
+      "auth"
+    ],
+    "privacy_keywords_expected": [],
+    "split_id": 1
+  },
+  {
+    "id": 2,
+    "task_size": "very_small",
+    "template_id": "very_small_01",
+    "category": "very_small",
+    "prompt": "Add type hints to `process_authgateway` in `src/catalog-service/authGateway.py` without behavior changes; run `pytest tests/catalog-service/test_authgateway.py -q`.",
+    "label": "local",
+    "capability_keywords_expected": [
+      "auth"
+    ],
+    "privacy_keywords_expected": [],
+    "split_id": 2
+  },
+  {
+    "id": 9,
+    "task_size": "very_small",
+    "template_id": "very_small_00",
+    "category": "very_small",
+    "prompt": "Rename `tmpCount` to `retryCount` in `src/admin-console/eventStore.py` and run `pytest tests/admin-console/test_eventstore.py -q` only.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 3
+  },
+  {
+    "id": 10,
+    "task_size": "very_small",
+    "template_id": "very_small_01",
+    "category": "very_small",
+    "prompt": "Add type hints to `process_sessionmanager` in `src/order-sync/sessionManager.py` without behavior changes; run `pytest tests/order-sync/test_sessionmanager.py -q`.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 4
+  },
+  {
+    "id": 17,
+    "task_size": "very_small",
+    "template_id": "very_small_00",
+    "category": "very_small",
+    "prompt": "Rename `tmpCount` to `retryCount` in `src/widget-store/tenantRouter.py` and run `pytest tests/widget-store/test_tenantrouter.py -q` only.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 5
+  },
+  {
+    "id": 18,
+    "task_size": "very_small",
+    "template_id": "very_small_01",
+    "category": "very_small",
+    "prompt": "Add type hints to `process_cachelayer` in `src/widget-store/cacheLayer.py` without behavior changes; run `pytest tests/widget-store/test_cachelayer.py -q`.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 6
+  },
+  {
+    "id": 25,
+    "task_size": "very_small",
+    "template_id": "very_small_00",
+    "category": "very_small",
+    "prompt": "Rename `tmpCount` to `retryCount` in `src/admin-console/sessionManager.py` and run `pytest tests/admin-console/test_sessionmanager.py -q` only.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 7
+  },
+  {
+    "id": 26,
+    "task_size": "very_small",
+    "template_id": "very_small_01",
+    "category": "very_small",
+    "prompt": "Add type hints to `process_eventstore` in `src/catalog-service/eventStore.py` without behavior changes; run `pytest tests/catalog-service/test_eventstore.py -q`.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 8
+  },
+  {
+    "id": 33,
+    "task_size": "very_small",
+    "template_id": "very_small_00",
+    "category": "very_small",
+    "prompt": "Rename `tmpCount` to `retryCount` in `src/admin-console/eventStore.py` and run `pytest tests/admin-console/test_eventstore.py -q` only.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 9
+  },
+  {
+    "id": 34,
+    "task_size": "very_small",
+    "template_id": "very_small_01",
+    "category": "very_small",
+    "prompt": "Add type hints to `process_billingpipeline` in `src/order-sync/billingPipeline.py` without behavior changes; run `pytest tests/order-sync/test_billingpipeline.py -q`.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 10
+  },
+  {
+    "id": 41,
+    "task_size": "medium_small",
+    "template_id": "medium_small_00",
+    "category": "medium_small",
+    "prompt": "Investigate flaky `pytest tests/report-worker/test_authgateway.py -q` (1/8 failures) using logs and test code; provide likely root cause and smallest patch.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "auth"
+    ],
+    "privacy_keywords_expected": [],
+    "split_id": 11
+  },
+  {
+    "id": 42,
+    "task_size": "medium_small",
+    "template_id": "medium_small_01",
+    "category": "medium_small",
+    "prompt": "Refactor `src/admin-console/tenantRouter.py` into smaller units but keep API unchanged; propose plan then apply minimal phase 1.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 12
+  },
+  {
+    "id": 49,
+    "task_size": "medium_small",
+    "template_id": "medium_small_00",
+    "category": "medium_small",
+    "prompt": "Investigate flaky `pytest tests/report-worker/test_sessionmanager.py -q` (1/8 failures) using logs and test code; provide likely root cause and smallest patch.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 13
+  },
+  {
+    "id": 50,
+    "task_size": "medium_small",
+    "template_id": "medium_small_01",
+    "category": "medium_small",
+    "prompt": "Refactor `src/catalog-service/cacheLayer.py` into smaller units but keep API unchanged; propose plan then apply minimal phase 1.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 14
+  },
+  {
+    "id": 57,
+    "task_size": "medium_small",
+    "template_id": "medium_small_00",
+    "category": "medium_small",
+    "prompt": "Investigate flaky `pytest tests/admin-console/test_billingpipeline.py -q` (1/8 failures) using logs and test code; provide likely root cause and smallest patch.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 15
+  },
+  {
+    "id": 58,
+    "task_size": "medium_small",
+    "template_id": "medium_small_01",
+    "category": "medium_small",
+    "prompt": "Refactor `src/report-worker/authGateway.py` into smaller units but keep API unchanged; propose plan then apply minimal phase 1.",
+    "label": "local",
+    "capability_keywords_expected": [
+      "auth"
+    ],
+    "privacy_keywords_expected": [],
+    "split_id": 16
+  },
+  {
+    "id": 65,
+    "task_size": "medium_small",
+    "template_id": "medium_small_00",
+    "category": "medium_small",
+    "prompt": "Investigate flaky `pytest tests/widget-store/test_billingpipeline.py -q` (1/8 failures) using logs and test code; provide likely root cause and smallest patch.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 17
+  },
+  {
+    "id": 66,
+    "task_size": "medium_small",
+    "template_id": "medium_small_01",
+    "category": "medium_small",
+    "prompt": "Refactor `src/report-worker/billingPipeline.py` into smaller units but keep API unchanged; propose plan then apply minimal phase 1.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 18
+  },
+  {
+    "id": 73,
+    "task_size": "medium_small",
+    "template_id": "medium_small_00",
+    "category": "medium_small",
+    "prompt": "Investigate flaky `pytest tests/report-worker/test_sessionmanager.py -q` (1/8 failures) using logs and test code; provide likely root cause and smallest patch.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 19
+  },
+  {
+    "id": 74,
+    "task_size": "medium_small",
+    "template_id": "medium_small_01",
+    "category": "medium_small",
+    "prompt": "Refactor `src/order-sync/billingPipeline.py` into smaller units but keep API unchanged; propose plan then apply minimal phase 1.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [],
+    "split_id": 20
+  },
+  {
+    "id": 81,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_00",
+    "category": "heavy_small",
+    "prompt": "Design zero-downtime migration for `catalog-service` from shared DB to per-tenant schemas with rollback.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "migration"
+    ],
+    "privacy_keywords_expected": [],
+    "split_id": 21
+  },
+  {
+    "id": 82,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_01",
+    "category": "heavy_small",
+    "prompt": "Diagnose production deadlock in `report-worker` using lock graphs and stack trace; propose hotfix and long fix.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "deadlock",
+      "stack trace"
+    ],
+    "privacy_keywords_expected": [],
+    "split_id": 22
+  },
+  {
+    "id": 89,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_00",
+    "category": "heavy_small",
+    "prompt": "Design zero-downtime migration for `admin-console` from shared DB to per-tenant schemas with rollback.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "migration"
+    ],
+    "privacy_keywords_expected": [],
+    "split_id": 23
+  },
+  {
+    "id": 90,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_01",
+    "category": "heavy_small",
+    "prompt": "Diagnose production deadlock in `checkout-core` using lock graphs and stack trace; propose hotfix and long fix.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "deadlock",
+      "stack trace"
+    ],
+    "privacy_keywords_expected": [],
+    "split_id": 24
+  },
+  {
+    "id": 97,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_00",
+    "category": "heavy_small",
+    "prompt": "Design zero-downtime migration for `widget-store` from shared DB to per-tenant schemas with rollback.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "migration"
+    ],
+    "privacy_keywords_expected": [],
+    "split_id": 25
+  },
+  {
+    "id": 98,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_01",
+    "category": "heavy_small",
+    "prompt": "Diagnose production deadlock in `checkout-core` using lock graphs and stack trace; propose hotfix and long fix.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "deadlock",
+      "stack trace"
+    ],
+    "privacy_keywords_expected": [],
+    "split_id": 26
+  },
+  {
+    "id": 105,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_00",
+    "category": "heavy_small",
+    "prompt": "Design zero-downtime migration for `order-sync` from shared DB to per-tenant schemas with rollback.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "migration"
+    ],
+    "privacy_keywords_expected": [],
+    "split_id": 27
+  },
+  {
+    "id": 106,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_01",
+    "category": "heavy_small",
+    "prompt": "Diagnose production deadlock in `widget-store` using lock graphs and stack trace; propose hotfix and long fix.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "deadlock",
+      "stack trace"
+    ],
+    "privacy_keywords_expected": [],
+    "split_id": 28
+  },
+  {
+    "id": 113,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_00",
+    "category": "heavy_small",
+    "prompt": "Design zero-downtime migration for `admin-console` from shared DB to per-tenant schemas with rollback.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "migration"
+    ],
+    "privacy_keywords_expected": [],
+    "split_id": 29
+  },
+  {
+    "id": 114,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_01",
+    "category": "heavy_small",
+    "prompt": "Diagnose production deadlock in `widget-store` using lock graphs and stack trace; propose hotfix and long fix.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "deadlock",
+      "stack trace"
+    ],
+    "privacy_keywords_expected": [],
+    "split_id": 30
+  }
+]

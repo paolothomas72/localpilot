@@ -1,0 +1,32 @@
+name: Hardware report
+description: Paste a local doctor snapshot so we can see how LocalPilot behaves on your PC. Nothing is uploaded unless you paste it.
+title: "Hardware: GPU / RAM"
+labels: [hardware]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        LocalPilot does not phone home. This issue is opt-in.
+
+        Run this on your machine, then paste the output. Redact model names if you want.
+
+        ```
+        localpilot doctor --json
+        ```
+  - type: textarea
+    id: doctor
+    attributes:
+      label: localpilot doctor --json
+      description: Paste the JSON. Remove anything you do not want public.
+    validations:
+      required: true
+  - type: input
+    id: gpu
+    attributes:
+      label: GPU / VRAM
+      placeholder: RTX 5070 12 GB
+  - type: textarea
+    id: notes
+    attributes:
+      label: What worked or broke
+      placeholder: Route felt right / a model hung / VRAM filled up

@@ -1,0 +1,576 @@
+Screen {
+    layout: vertical;
+    background: #2c241c;
+    color: #e8dfd0;
+}
+
+#chrome {
+    dock: top;
+    height: 8;
+    layout: vertical;
+    background: #241c16;
+    padding: 0 1;
+}
+
+#chrome-top {
+    height: 5;
+    layout: horizontal;
+}
+
+#wordmark {
+    width: 105;
+    color: #f0a040;
+    background: #3a2410;
+    text-style: bold italic;
+    content-align: left middle;
+    padding: 1 2;
+}
+
+#pills {
+    width: 1fr;
+    color: #c8b8a4;
+    content-align: right middle;
+}
+
+#model-banner {
+    height: 3;
+    color: #e8dfd0;
+    content-align: left middle;
+    padding: 0 1;
+}
+
+#model-banner.working {
+    color: #24160e;
+    background: #c9842a;
+    text-style: bold;
+}
+
+#model-banner.idle {
+    color: #c8b8a4;
+}
+
+#pills.tight {
+    color: #c45c4a;
+    text-style: bold;
+}
+
+#tabs {
+    height: 1fr;
+    background: #2c241c;
+}
+
+TabbedContent > Tabs {
+    background: #241c16;
+    dock: top;
+    height: 3;
+    padding: 0 1;
+}
+
+Tab {
+    color: #a89888;
+    text-style: none;
+    padding: 0 2;
+    background: #241c16;
+}
+
+Tab:hover {
+    color: #e8dfd0;
+}
+
+Tab.-active {
+    color: #f0c070;
+    text-style: bold;
+    background: #241c16;
+}
+
+TabbedContent > Tabs:focus Tab.-active {
+    color: #f0c070;
+    text-style: bold;
+    background: #241c16;
+}
+
+Underline {
+    height: 1;
+}
+
+Underline > .underline--bar {
+    color: #4a8fd4;
+    background: #241c16;
+}
+
+TabbedContent > Tabs:focus Underline > .underline--bar {
+    color: #6aa8e8;
+    background: #241c16;
+}
+
+#footer-stack {
+    dock: bottom;
+    height: 5;
+    layout: vertical;
+    background: #241c16;
+}
+
+#composer {
+    height: 3;
+    background: #3a2f24;
+    color: #e8dfd0;
+    border: tall #c9842a;
+    padding: 0 1;
+}
+
+#test-actions {
+    height: 6;
+    display: none;
+    layout: vertical;
+    background: #241c16;
+    padding: 0 1;
+}
+
+#test-model-row, #test-kind-row {
+    height: 3;
+    layout: horizontal;
+}
+
+#test-model-label {
+    width: 1fr;
+    color: #f0a040;
+    content-align: center middle;
+}
+
+#test-actions Button {
+    background: #3a2410;
+    color: #f0a040;
+    border: tall #c9842a;
+    margin-right: 1;
+    min-width: 12;
+}
+
+#test-actions Button:hover,
+#test-actions Button.-active {
+    background: #c9842a;
+    color: #24160e;
+}
+
+#theme-row {
+    height: 3;
+    layout: horizontal;
+    padding: 0 1 1 1;
+}
+
+#theme-row Button {
+    background: #3a2410;
+    color: #f0a040;
+    border: tall #c9842a;
+    margin-right: 1;
+    min-width: 10;
+}
+
+#keys {
+    height: 2;
+    color: #a89888;
+    background: #241c16;
+    content-align: left middle;
+    padding: 0 2;
+}
+
+.page {
+    layout: vertical;
+    height: 1fr;
+    padding: 0 1 1 1;
+    background: #2c241c;
+}
+
+.page-head {
+    height: 3;
+    color: #f0a040;
+    text-style: bold italic;
+    content-align: left middle;
+    padding: 0 1;
+}
+
+.panel {
+    background: #3a2f24;
+    border: tall #5c4a3a;
+    padding: 0 1;
+    margin-bottom: 1;
+}
+
+.box {
+    width: 1fr;
+    height: 1fr;
+    margin-right: 1;
+}
+
+.box-head {
+    height: 3;
+    color: #f0a040;
+    text-style: bold;
+    content-align: left middle;
+    padding: 0 1;
+}
+
+#machine-row1, #machine-row2, #machine-row3 {
+    height: 1fr;
+    layout: horizontal;
+}
+
+#tele-box, #idle-box, #list-box, #pc-box, #feats-box, #tips, #models-current, #models-inspect-body {
+    width: 1fr;
+    height: 1fr;
+}
+
+#machine-status {
+    height: 2;
+    color: #c9842a;
+}
+
+#models-split {
+    height: 1fr;
+    layout: horizontal;
+}
+
+#models-left {
+    width: 3fr;
+    height: 1fr;
+    layout: vertical;
+    padding-right: 1;
+}
+
+#models-inspect {
+    width: 2fr;
+    height: 1fr;
+    layout: vertical;
+}
+
+#models-current {
+    height: 5;
+}
+
+#models-table {
+    height: 1fr;
+}
+
+#models-hint {
+    height: 2;
+    color: #a89888;
+}
+
+#route-split {
+    height: 1fr;
+    layout: horizontal;
+}
+
+#you-col, #model-col {
+    width: 1fr;
+    min-width: 36;
+    height: 1fr;
+    layout: vertical;
+    padding: 0 1 1 1;
+}
+
+#you-col {
+    margin-right: 1;
+}
+
+#you-log {
+    width: 1fr;
+    height: 1fr;
+    background: #0c0a08;
+    color: #d8d0c4;
+    padding: 1 2;
+}
+
+#model-meta {
+    height: 6;
+    color: #c8b8a4;
+    padding: 0 1 1 1;
+}
+
+#model-result {
+    height: 7;
+    color: #e8dfd0;
+    background: #0c0a08;
+    border: tall #c9842a;
+    padding: 1 2;
+    margin-bottom: 1;
+    text-style: bold;
+}
+
+#model-result.local {
+    color: #6ecf6e;
+}
+
+#model-result.cloud {
+    color: #6aa8e8;
+}
+
+#model-result.loading {
+    color: #e8a040;
+}
+
+#gates-box {
+    width: 1fr;
+    height: 1fr;
+    color: #d8d0c4;
+    padding: 0 1;
+}
+
+#route-live {
+    height: 3;
+    color: #e8dfd0;
+    padding: 0 1;
+}
+
+#runs-split {
+    height: 1fr;
+    layout: horizontal;
+}
+
+#runs-left, #runs-right {
+    width: 1fr;
+    height: 1fr;
+    padding: 0 1;
+}
+
+#runs-left {
+    width: 3fr;
+}
+
+#runs-right {
+    width: 2fr;
+}
+
+#graph-cpu, #graph-gpu, #graph-ram {
+    height: 1fr;
+    color: #e8a040;
+    text-style: bold;
+    padding: 1 1;
+}
+
+#disk-row {
+    height: 2fr;
+    layout: horizontal;
+}
+
+#disk-c, #disk-d {
+    width: 1fr;
+    height: 1fr;
+    color: #d8a04a;
+    text-style: bold;
+    margin-right: 1;
+    padding: 1 1;
+}
+
+#runs-model {
+    height: 9;
+    padding: 1 1;
+}
+
+#runs-activity {
+    height: 13;
+    padding: 1 1;
+}
+
+#runs-log {
+    height: 1fr;
+    padding: 1 1;
+}
+
+.graph {
+    height: 1fr;
+    color: #c9842a;
+}
+
+#board-table {
+    height: 1fr;
+}
+
+#test-status {
+    height: 5;
+}
+
+#test-models {
+    height: 6;
+    padding: 0 1;
+}
+
+#test-result {
+    height: 6;
+}
+
+#notes-modal {
+    width: 80;
+    height: auto;
+    max-height: 36;
+    background: #241c16;
+    border: tall #c9842a;
+    padding: 1 2;
+}
+
+#notes-full {
+    height: auto;
+    padding: 1 0;
+}
+
+#close-notes {
+    background: #3a2410;
+    color: #f0a040;
+    border: tall #c9842a;
+    width: 16;
+}
+
+.meter {
+    height: 3;
+    color: #e8dfd0;
+}
+
+#errors-body {
+    height: 1fr;
+}
+
+Screen.theme-rgb {
+    background: #141820;
+    color: #dce4ee;
+}
+
+Screen.theme-rgb #chrome,
+Screen.theme-rgb #footer-stack,
+Screen.theme-rgb TabbedContent > Tabs {
+    background: #0e1218;
+}
+
+Screen.theme-rgb #tabs,
+Screen.theme-rgb .page {
+    background: #141820;
+}
+
+Screen.theme-rgb #wordmark {
+    color: #3cb371;
+    background: #102018;
+}
+
+Screen.theme-rgb .page-head,
+Screen.theme-rgb .box-head,
+Screen.theme-rgb Tab.-active,
+Screen.theme-rgb TabbedContent > Tabs:focus Tab.-active {
+    color: #3cb371;
+    background: #0e1218;
+}
+
+Screen.theme-rgb Tab {
+    color: #7a8898;
+    background: #0e1218;
+}
+
+Screen.theme-rgb Underline > .underline--bar,
+Screen.theme-rgb TabbedContent > Tabs:focus Underline > .underline--bar {
+    color: #4a8fd4;
+    background: #0e1218;
+}
+
+Screen.theme-rgb .panel,
+Screen.theme-rgb #composer,
+Screen.theme-rgb #you-col,
+Screen.theme-rgb #model-col {
+    background: #1c2430;
+    border: tall #2a3848;
+}
+
+Screen.theme-rgb #composer,
+Screen.theme-rgb #model-result {
+    border: tall #d94a4a;
+    color: #dce4ee;
+}
+
+Screen.theme-rgb #you-log,
+Screen.theme-rgb #model-result {
+    background: #0a0e14;
+}
+
+Screen.theme-rgb Button {
+    background: #102018;
+    color: #3cb371;
+    border: tall #4a8fd4;
+}
+
+Screen.theme-ink {
+    background: #f4f1ec;
+    color: #141414;
+}
+
+Screen.theme-ink #chrome,
+Screen.theme-ink #footer-stack,
+Screen.theme-ink TabbedContent > Tabs {
+    background: #111111;
+}
+
+Screen.theme-ink #pills,
+Screen.theme-ink #keys,
+Screen.theme-ink #model-banner.idle {
+    color: #d8d0c4;
+}
+
+Screen.theme-ink #tabs,
+Screen.theme-ink .page {
+    background: #f4f1ec;
+}
+
+Screen.theme-ink #wordmark {
+    color: #c41e1e;
+    background: #1a1a1a;
+}
+
+Screen.theme-ink .page-head,
+Screen.theme-ink .box-head {
+    color: #c41e1e;
+}
+
+Screen.theme-ink Tab {
+    color: #888888;
+    background: #111111;
+}
+
+Screen.theme-ink Tab.-active,
+Screen.theme-ink TabbedContent > Tabs:focus Tab.-active {
+    color: #c41e1e;
+    background: #111111;
+}
+
+Screen.theme-ink Underline > .underline--bar,
+Screen.theme-ink TabbedContent > Tabs:focus Underline > .underline--bar {
+    color: #c41e1e;
+    background: #111111;
+}
+
+Screen.theme-ink .panel {
+    background: #ece8e0;
+    border: tall #111111;
+}
+
+Screen.theme-ink #composer {
+    background: #111111;
+    color: #f4f1ec;
+    border: tall #c41e1e;
+}
+
+Screen.theme-ink #model-result {
+    background: #ffffff;
+    color: #141414;
+    border: tall #c41e1e;
+}
+
+Screen.theme-ink #you-col {
+    background: #111111;
+    border: tall #111111;
+}
+
+Screen.theme-ink #you-log {
+    background: #111111;
+    color: #f4f1ec;
+}
+
+Screen.theme-ink Button {
+    background: #111111;
+    color: #f4f1ec;
+    border: tall #c41e1e;
+}

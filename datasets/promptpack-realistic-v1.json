@@ -1,0 +1,1350 @@
+[
+  {
+    "id": 1,
+    "task_size": "very_small",
+    "template_id": "very_small_00",
+    "category": "very_small",
+    "prompt": "Rename `tmpCount` to `retryCount` in `src/widget-store/authGateway.py` and run `pytest tests/widget-store/test_authgateway.py -q` only.",
+    "label": "local",
+    "capability_keywords_expected": [
+      "auth"
+    ],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 2,
+    "task_size": "very_small",
+    "template_id": "very_small_01",
+    "category": "very_small",
+    "prompt": "Add type hints to `process_authgateway` in `src/catalog-service/authGateway.py` without behavior changes; run `pytest tests/catalog-service/test_authgateway.py -q`.",
+    "label": "local",
+    "capability_keywords_expected": [
+      "auth"
+    ],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 3,
+    "task_size": "very_small",
+    "template_id": "very_small_02",
+    "category": "very_small",
+    "prompt": "Write a docstring for `process_eventstore` in `src/order-sync/eventStore.py` with params and return.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 4,
+    "task_size": "very_small",
+    "template_id": "very_small_03",
+    "category": "very_small",
+    "prompt": "Reformat `src/admin-console/authGateway.py` for readability only; show diff before finish.",
+    "label": "local",
+    "capability_keywords_expected": [
+      "auth"
+    ],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 5,
+    "task_size": "very_small",
+    "template_id": "very_small_04",
+    "category": "very_small",
+    "prompt": "Fix known null-check bug in `src/report-worker/billingPipeline.py` line `128`; rerun `pytest tests/report-worker/test_billingpipeline.py -q`.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 6,
+    "task_size": "very_small",
+    "template_id": "very_small_05",
+    "category": "very_small",
+    "prompt": "Convert fixture `fixtures/widget-store/billingPipeline.json` to interface `billingPipelineResponse` in `src/widget-store/billingPipeline.py`.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 7,
+    "task_size": "very_small",
+    "template_id": "very_small_06",
+    "category": "very_small",
+    "prompt": "Patch typo in config key `eventStore.poll_secs` in `src/order-sync/eventStore.py` and run `pytest tests/order-sync/test_eventstore.py -q`.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 8,
+    "task_size": "very_small",
+    "template_id": "very_small_07",
+    "category": "very_small",
+    "prompt": "Translate one-liner from bash to PowerShell in `src/widget-store/cacheLayer.py`.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 9,
+    "task_size": "very_small",
+    "template_id": "very_small_00",
+    "category": "very_small",
+    "prompt": "Rename `tmpCount` to `retryCount` in `src/admin-console/eventStore.py` and run `pytest tests/admin-console/test_eventstore.py -q` only.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 10,
+    "task_size": "very_small",
+    "template_id": "very_small_01",
+    "category": "very_small",
+    "prompt": "Add type hints to `process_sessionmanager` in `src/order-sync/sessionManager.py` without behavior changes; run `pytest tests/order-sync/test_sessionmanager.py -q`.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 11,
+    "task_size": "very_small",
+    "template_id": "very_small_02",
+    "category": "very_small",
+    "prompt": "Write a docstring for `process_cachelayer` in `src/catalog-service/cacheLayer.py` with params and return.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 12,
+    "task_size": "very_small",
+    "template_id": "very_small_03",
+    "category": "very_small",
+    "prompt": "Reformat `src/admin-console/eventStore.py` for readability only; show diff before finish.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 13,
+    "task_size": "very_small",
+    "template_id": "very_small_04",
+    "category": "very_small",
+    "prompt": "Fix known null-check bug in `src/catalog-service/tenantRouter.py` line `59`; rerun `pytest tests/catalog-service/test_tenantrouter.py -q`.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 14,
+    "task_size": "very_small",
+    "template_id": "very_small_05",
+    "category": "very_small",
+    "prompt": "Convert fixture `fixtures/catalog-service/eventStore.json` to interface `eventStoreResponse` in `src/catalog-service/eventStore.py`.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 15,
+    "task_size": "very_small",
+    "template_id": "very_small_06",
+    "category": "very_small",
+    "prompt": "Patch typo in config key `billingPipeline.poll_secs` in `src/checkout-core/billingPipeline.py` and run `pytest tests/checkout-core/test_billingpipeline.py -q`.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 16,
+    "task_size": "very_small",
+    "template_id": "very_small_07",
+    "category": "very_small",
+    "prompt": "Translate one-liner from bash to PowerShell in `src/catalog-service/tenantRouter.py`.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 17,
+    "task_size": "very_small",
+    "template_id": "very_small_00",
+    "category": "very_small",
+    "prompt": "Rename `tmpCount` to `retryCount` in `src/widget-store/tenantRouter.py` and run `pytest tests/widget-store/test_tenantrouter.py -q` only.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 18,
+    "task_size": "very_small",
+    "template_id": "very_small_01",
+    "category": "very_small",
+    "prompt": "Add type hints to `process_cachelayer` in `src/widget-store/cacheLayer.py` without behavior changes; run `pytest tests/widget-store/test_cachelayer.py -q`.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 19,
+    "task_size": "very_small",
+    "template_id": "very_small_02",
+    "category": "very_small",
+    "prompt": "Write a docstring for `process_billingpipeline` in `src/report-worker/billingPipeline.py` with params and return.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 20,
+    "task_size": "very_small",
+    "template_id": "very_small_03",
+    "category": "very_small",
+    "prompt": "Reformat `src/report-worker/authGateway.py` for readability only; show diff before finish.",
+    "label": "local",
+    "capability_keywords_expected": [
+      "auth"
+    ],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 21,
+    "task_size": "very_small",
+    "template_id": "very_small_04",
+    "category": "very_small",
+    "prompt": "Fix known null-check bug in `src/order-sync/cacheLayer.py` line `37`; rerun `pytest tests/order-sync/test_cachelayer.py -q`.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 22,
+    "task_size": "very_small",
+    "template_id": "very_small_05",
+    "category": "very_small",
+    "prompt": "Convert fixture `fixtures/admin-console/billingPipeline.json` to interface `billingPipelineResponse` in `src/admin-console/billingPipeline.py`.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 23,
+    "task_size": "very_small",
+    "template_id": "very_small_06",
+    "category": "very_small",
+    "prompt": "Patch typo in config key `tenantRouter.poll_secs` in `src/widget-store/tenantRouter.py` and run `pytest tests/widget-store/test_tenantrouter.py -q`.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 24,
+    "task_size": "very_small",
+    "template_id": "very_small_07",
+    "category": "very_small",
+    "prompt": "Translate one-liner from bash to PowerShell in `src/checkout-core/billingPipeline.py`.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 25,
+    "task_size": "very_small",
+    "template_id": "very_small_00",
+    "category": "very_small",
+    "prompt": "Rename `tmpCount` to `retryCount` in `src/admin-console/sessionManager.py` and run `pytest tests/admin-console/test_sessionmanager.py -q` only.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 26,
+    "task_size": "very_small",
+    "template_id": "very_small_01",
+    "category": "very_small",
+    "prompt": "Add type hints to `process_eventstore` in `src/catalog-service/eventStore.py` without behavior changes; run `pytest tests/catalog-service/test_eventstore.py -q`.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 27,
+    "task_size": "very_small",
+    "template_id": "very_small_02",
+    "category": "very_small",
+    "prompt": "Write a docstring for `process_eventstore` in `src/admin-console/eventStore.py` with params and return.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 28,
+    "task_size": "very_small",
+    "template_id": "very_small_03",
+    "category": "very_small",
+    "prompt": "Reformat `src/admin-console/authGateway.py` for readability only; show diff before finish.",
+    "label": "local",
+    "capability_keywords_expected": [
+      "auth"
+    ],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 29,
+    "task_size": "very_small",
+    "template_id": "very_small_04",
+    "category": "very_small",
+    "prompt": "Fix known null-check bug in `src/admin-console/cacheLayer.py` line `63`; rerun `pytest tests/admin-console/test_cachelayer.py -q`.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 30,
+    "task_size": "very_small",
+    "template_id": "very_small_05",
+    "category": "very_small",
+    "prompt": "Convert fixture `fixtures/admin-console/cacheLayer.json` to interface `cacheLayerResponse` in `src/admin-console/cacheLayer.py`.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 31,
+    "task_size": "very_small",
+    "template_id": "very_small_06",
+    "category": "very_small",
+    "prompt": "Patch typo in config key `eventStore.poll_secs` in `src/checkout-core/eventStore.py` and run `pytest tests/checkout-core/test_eventstore.py -q`.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 32,
+    "task_size": "very_small",
+    "template_id": "very_small_07",
+    "category": "very_small",
+    "prompt": "Translate one-liner from bash to PowerShell in `src/admin-console/tenantRouter.py`.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 33,
+    "task_size": "very_small",
+    "template_id": "very_small_00",
+    "category": "very_small",
+    "prompt": "Rename `tmpCount` to `retryCount` in `src/admin-console/eventStore.py` and run `pytest tests/admin-console/test_eventstore.py -q` only.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 34,
+    "task_size": "very_small",
+    "template_id": "very_small_01",
+    "category": "very_small",
+    "prompt": "Add type hints to `process_billingpipeline` in `src/order-sync/billingPipeline.py` without behavior changes; run `pytest tests/order-sync/test_billingpipeline.py -q`.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 35,
+    "task_size": "very_small",
+    "template_id": "very_small_02",
+    "category": "very_small",
+    "prompt": "Write a docstring for `process_tenantrouter` in `src/checkout-core/tenantRouter.py` with params and return.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 36,
+    "task_size": "very_small",
+    "template_id": "very_small_03",
+    "category": "very_small",
+    "prompt": "Reformat `src/order-sync/billingPipeline.py` for readability only; show diff before finish.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 37,
+    "task_size": "very_small",
+    "template_id": "very_small_04",
+    "category": "very_small",
+    "prompt": "Fix known null-check bug in `src/catalog-service/authGateway.py` line `74`; rerun `pytest tests/catalog-service/test_authgateway.py -q`.",
+    "label": "local",
+    "capability_keywords_expected": [
+      "auth"
+    ],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 38,
+    "task_size": "very_small",
+    "template_id": "very_small_05",
+    "category": "very_small",
+    "prompt": "Convert fixture `fixtures/checkout-core/authGateway.json` to interface `authGatewayResponse` in `src/checkout-core/authGateway.py`.",
+    "label": "local",
+    "capability_keywords_expected": [
+      "auth"
+    ],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 39,
+    "task_size": "very_small",
+    "template_id": "very_small_06",
+    "category": "very_small",
+    "prompt": "Patch typo in config key `authGateway.poll_secs` in `src/checkout-core/authGateway.py` and run `pytest tests/checkout-core/test_authgateway.py -q`.",
+    "label": "local",
+    "capability_keywords_expected": [
+      "auth"
+    ],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 40,
+    "task_size": "very_small",
+    "template_id": "very_small_07",
+    "category": "very_small",
+    "prompt": "Translate one-liner from bash to PowerShell in `src/order-sync/tenantRouter.py`.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 41,
+    "task_size": "medium_small",
+    "template_id": "medium_small_00",
+    "category": "medium_small",
+    "prompt": "Investigate flaky `pytest tests/report-worker/test_authgateway.py -q` (1/8 failures) using logs and test code; provide likely root cause and smallest patch.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "auth"
+    ],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 42,
+    "task_size": "medium_small",
+    "template_id": "medium_small_01",
+    "category": "medium_small",
+    "prompt": "Refactor `src/admin-console/tenantRouter.py` into smaller units but keep API unchanged; propose plan then apply minimal phase 1.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 43,
+    "task_size": "medium_small",
+    "template_id": "medium_small_02",
+    "category": "medium_small",
+    "prompt": "Analyze why `pytest tests/report-worker/test_sessionmanager.py -q` passes local but fails on hosted runner; rank top causes and patch YAML.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "hosted runner"
+    ],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 44,
+    "task_size": "medium_small",
+    "template_id": "medium_small_03",
+    "category": "medium_small",
+    "prompt": "Review `src/order-sync/tenantRouter.py` for auth/session mistakes and list severity-ranked issues.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "auth"
+    ],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 45,
+    "task_size": "medium_small",
+    "template_id": "medium_small_04",
+    "category": "medium_small",
+    "prompt": "Choose index changes for `src/checkout-core/cacheLayer.py` using EXPLAIN output and justify tradeoffs.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 46,
+    "task_size": "medium_small",
+    "template_id": "medium_small_05",
+    "category": "medium_small",
+    "prompt": "Triage intermittent timeout in `widget-store` with partial traces; propose evidence-first next steps.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 47,
+    "task_size": "medium_small",
+    "template_id": "medium_small_06",
+    "category": "medium_small",
+    "prompt": "Implement bounded retry/backoff in `src/order-sync/authGateway.py` without changing call signatures.",
+    "label": "local",
+    "capability_keywords_expected": [
+      "auth"
+    ],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 48,
+    "task_size": "medium_small",
+    "template_id": "medium_small_07",
+    "category": "medium_small",
+    "prompt": "Assess whether module `cacheLayer` should split into services or stay modular monolith.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 49,
+    "task_size": "medium_small",
+    "template_id": "medium_small_00",
+    "category": "medium_small",
+    "prompt": "Investigate flaky `pytest tests/report-worker/test_sessionmanager.py -q` (1/8 failures) using logs and test code; provide likely root cause and smallest patch.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 50,
+    "task_size": "medium_small",
+    "template_id": "medium_small_01",
+    "category": "medium_small",
+    "prompt": "Refactor `src/catalog-service/cacheLayer.py` into smaller units but keep API unchanged; propose plan then apply minimal phase 1.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 51,
+    "task_size": "medium_small",
+    "template_id": "medium_small_02",
+    "category": "medium_small",
+    "prompt": "Analyze why `pytest tests/admin-console/test_billingpipeline.py -q` passes local but fails on hosted runner; rank top causes and patch YAML.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "hosted runner"
+    ],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 52,
+    "task_size": "medium_small",
+    "template_id": "medium_small_03",
+    "category": "medium_small",
+    "prompt": "Review `src/report-worker/authGateway.py` for auth/session mistakes and list severity-ranked issues.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "auth"
+    ],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 53,
+    "task_size": "medium_small",
+    "template_id": "medium_small_04",
+    "category": "medium_small",
+    "prompt": "Choose index changes for `src/catalog-service/authGateway.py` using EXPLAIN output and justify tradeoffs.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "auth"
+    ],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 54,
+    "task_size": "medium_small",
+    "template_id": "medium_small_05",
+    "category": "medium_small",
+    "prompt": "Triage intermittent timeout in `checkout-core` with partial traces; propose evidence-first next steps.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 55,
+    "task_size": "medium_small",
+    "template_id": "medium_small_06",
+    "category": "medium_small",
+    "prompt": "Implement bounded retry/backoff in `src/widget-store/sessionManager.py` without changing call signatures.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 56,
+    "task_size": "medium_small",
+    "template_id": "medium_small_07",
+    "category": "medium_small",
+    "prompt": "Assess whether module `cacheLayer` should split into services or stay modular monolith.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 57,
+    "task_size": "medium_small",
+    "template_id": "medium_small_00",
+    "category": "medium_small",
+    "prompt": "Investigate flaky `pytest tests/admin-console/test_billingpipeline.py -q` (1/8 failures) using logs and test code; provide likely root cause and smallest patch.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 58,
+    "task_size": "medium_small",
+    "template_id": "medium_small_01",
+    "category": "medium_small",
+    "prompt": "Refactor `src/report-worker/authGateway.py` into smaller units but keep API unchanged; propose plan then apply minimal phase 1.",
+    "label": "local",
+    "capability_keywords_expected": [
+      "auth"
+    ],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 59,
+    "task_size": "medium_small",
+    "template_id": "medium_small_02",
+    "category": "medium_small",
+    "prompt": "Analyze why `pytest tests/order-sync/test_eventstore.py -q` passes local but fails on hosted runner; rank top causes and patch YAML.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "hosted runner"
+    ],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 60,
+    "task_size": "medium_small",
+    "template_id": "medium_small_03",
+    "category": "medium_small",
+    "prompt": "Review `src/report-worker/eventStore.py` for auth/session mistakes and list severity-ranked issues.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "auth"
+    ],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 61,
+    "task_size": "medium_small",
+    "template_id": "medium_small_04",
+    "category": "medium_small",
+    "prompt": "Choose index changes for `src/report-worker/billingPipeline.py` using EXPLAIN output and justify tradeoffs.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 62,
+    "task_size": "medium_small",
+    "template_id": "medium_small_05",
+    "category": "medium_small",
+    "prompt": "Triage intermittent timeout in `widget-store` with partial traces; propose evidence-first next steps.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 63,
+    "task_size": "medium_small",
+    "template_id": "medium_small_06",
+    "category": "medium_small",
+    "prompt": "Implement bounded retry/backoff in `src/catalog-service/tenantRouter.py` without changing call signatures.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 64,
+    "task_size": "medium_small",
+    "template_id": "medium_small_07",
+    "category": "medium_small",
+    "prompt": "Assess whether module `billingPipeline` should split into services or stay modular monolith.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 65,
+    "task_size": "medium_small",
+    "template_id": "medium_small_00",
+    "category": "medium_small",
+    "prompt": "Investigate flaky `pytest tests/widget-store/test_billingpipeline.py -q` (1/8 failures) using logs and test code; provide likely root cause and smallest patch.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 66,
+    "task_size": "medium_small",
+    "template_id": "medium_small_01",
+    "category": "medium_small",
+    "prompt": "Refactor `src/report-worker/billingPipeline.py` into smaller units but keep API unchanged; propose plan then apply minimal phase 1.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 67,
+    "task_size": "medium_small",
+    "template_id": "medium_small_02",
+    "category": "medium_small",
+    "prompt": "Analyze why `pytest tests/admin-console/test_eventstore.py -q` passes local but fails on hosted runner; rank top causes and patch YAML.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "hosted runner"
+    ],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 68,
+    "task_size": "medium_small",
+    "template_id": "medium_small_03",
+    "category": "medium_small",
+    "prompt": "Review `src/order-sync/cacheLayer.py` for auth/session mistakes and list severity-ranked issues.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "auth"
+    ],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 69,
+    "task_size": "medium_small",
+    "template_id": "medium_small_04",
+    "category": "medium_small",
+    "prompt": "Choose index changes for `src/report-worker/cacheLayer.py` using EXPLAIN output and justify tradeoffs.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 70,
+    "task_size": "medium_small",
+    "template_id": "medium_small_05",
+    "category": "medium_small",
+    "prompt": "Triage intermittent timeout in `report-worker` with partial traces; propose evidence-first next steps.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 71,
+    "task_size": "medium_small",
+    "template_id": "medium_small_06",
+    "category": "medium_small",
+    "prompt": "Implement bounded retry/backoff in `src/catalog-service/authGateway.py` without changing call signatures.",
+    "label": "local",
+    "capability_keywords_expected": [
+      "auth"
+    ],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 72,
+    "task_size": "medium_small",
+    "template_id": "medium_small_07",
+    "category": "medium_small",
+    "prompt": "Assess whether module `authGateway` should split into services or stay modular monolith.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "auth"
+    ],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 73,
+    "task_size": "medium_small",
+    "template_id": "medium_small_00",
+    "category": "medium_small",
+    "prompt": "Investigate flaky `pytest tests/report-worker/test_sessionmanager.py -q` (1/8 failures) using logs and test code; provide likely root cause and smallest patch.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 74,
+    "task_size": "medium_small",
+    "template_id": "medium_small_01",
+    "category": "medium_small",
+    "prompt": "Refactor `src/order-sync/billingPipeline.py` into smaller units but keep API unchanged; propose plan then apply minimal phase 1.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 75,
+    "task_size": "medium_small",
+    "template_id": "medium_small_02",
+    "category": "medium_small",
+    "prompt": "Analyze why `pytest tests/catalog-service/test_billingpipeline.py -q` passes local but fails on hosted runner; rank top causes and patch YAML.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "hosted runner"
+    ],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 76,
+    "task_size": "medium_small",
+    "template_id": "medium_small_03",
+    "category": "medium_small",
+    "prompt": "Review `src/report-worker/cacheLayer.py` for auth/session mistakes and list severity-ranked issues.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "auth"
+    ],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 77,
+    "task_size": "medium_small",
+    "template_id": "medium_small_04",
+    "category": "medium_small",
+    "prompt": "Choose index changes for `src/order-sync/cacheLayer.py` using EXPLAIN output and justify tradeoffs.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 78,
+    "task_size": "medium_small",
+    "template_id": "medium_small_05",
+    "category": "medium_small",
+    "prompt": "Triage intermittent timeout in `admin-console` with partial traces; propose evidence-first next steps.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 79,
+    "task_size": "medium_small",
+    "template_id": "medium_small_06",
+    "category": "medium_small",
+    "prompt": "Implement bounded retry/backoff in `src/widget-store/eventStore.py` without changing call signatures.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 80,
+    "task_size": "medium_small",
+    "template_id": "medium_small_07",
+    "category": "medium_small",
+    "prompt": "Assess whether module `tenantRouter` should split into services or stay modular monolith.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 81,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_00",
+    "category": "heavy_small",
+    "prompt": "Design zero-downtime migration for `catalog-service` from shared DB to per-tenant schemas with rollback.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "migration"
+    ],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 82,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_01",
+    "category": "heavy_small",
+    "prompt": "Diagnose production deadlock in `report-worker` using lock graphs and stack trace; propose hotfix and long fix.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "deadlock",
+      "stack trace"
+    ],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 83,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_02",
+    "category": "heavy_small",
+    "prompt": "Threat-model webhook ingestion in `report-worker` and propose phased mitigations.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 84,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_03",
+    "category": "heavy_small",
+    "prompt": "Plan outage response for `order-sync` with elevated 5xx and unclear root cause.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "outage"
+    ],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 85,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_04",
+    "category": "heavy_small",
+    "prompt": "Create local-only sanitation plan for production dump with customer data and token fields.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [
+      "customer data",
+      "production dump",
+      "token"
+    ]
+  },
+  {
+    "id": 86,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_05",
+    "category": "heavy_small",
+    "prompt": "Perform security review on auth token validation and secret rotation policy for `admin-console`.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "security",
+      "auth"
+    ],
+    "privacy_keywords_expected": [
+      "secret",
+      "token"
+    ]
+  },
+  {
+    "id": 87,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_06",
+    "category": "heavy_small",
+    "prompt": "Build incident decision tree for multi-service latency regression in `checkout-core`.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 88,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_07",
+    "category": "heavy_small",
+    "prompt": "Design privacy-first data redaction flow for pii/phi export artifacts in `admin-console`.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [
+      "pii",
+      "phi"
+    ]
+  },
+  {
+    "id": 89,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_00",
+    "category": "heavy_small",
+    "prompt": "Design zero-downtime migration for `admin-console` from shared DB to per-tenant schemas with rollback.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "migration"
+    ],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 90,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_01",
+    "category": "heavy_small",
+    "prompt": "Diagnose production deadlock in `checkout-core` using lock graphs and stack trace; propose hotfix and long fix.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "deadlock",
+      "stack trace"
+    ],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 91,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_02",
+    "category": "heavy_small",
+    "prompt": "Threat-model webhook ingestion in `order-sync` and propose phased mitigations.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 92,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_03",
+    "category": "heavy_small",
+    "prompt": "Plan outage response for `report-worker` with elevated 5xx and unclear root cause.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "outage"
+    ],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 93,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_04",
+    "category": "heavy_small",
+    "prompt": "Create local-only sanitation plan for production dump with customer data and token fields.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [
+      "customer data",
+      "production dump",
+      "token"
+    ]
+  },
+  {
+    "id": 94,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_05",
+    "category": "heavy_small",
+    "prompt": "Perform security review on auth token validation and secret rotation policy for `checkout-core`.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "security",
+      "auth"
+    ],
+    "privacy_keywords_expected": [
+      "secret",
+      "token"
+    ]
+  },
+  {
+    "id": 95,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_06",
+    "category": "heavy_small",
+    "prompt": "Build incident decision tree for multi-service latency regression in `checkout-core`.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 96,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_07",
+    "category": "heavy_small",
+    "prompt": "Design privacy-first data redaction flow for pii/phi export artifacts in `widget-store`.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [
+      "pii",
+      "phi"
+    ]
+  },
+  {
+    "id": 97,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_00",
+    "category": "heavy_small",
+    "prompt": "Design zero-downtime migration for `widget-store` from shared DB to per-tenant schemas with rollback.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "migration"
+    ],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 98,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_01",
+    "category": "heavy_small",
+    "prompt": "Diagnose production deadlock in `checkout-core` using lock graphs and stack trace; propose hotfix and long fix.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "deadlock",
+      "stack trace"
+    ],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 99,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_02",
+    "category": "heavy_small",
+    "prompt": "Threat-model webhook ingestion in `order-sync` and propose phased mitigations.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 100,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_03",
+    "category": "heavy_small",
+    "prompt": "Plan outage response for `order-sync` with elevated 5xx and unclear root cause.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "outage"
+    ],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 101,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_04",
+    "category": "heavy_small",
+    "prompt": "Create local-only sanitation plan for production dump with customer data and token fields.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [
+      "customer data",
+      "production dump",
+      "token"
+    ]
+  },
+  {
+    "id": 102,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_05",
+    "category": "heavy_small",
+    "prompt": "Perform security review on auth token validation and secret rotation policy for `catalog-service`.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "security",
+      "auth"
+    ],
+    "privacy_keywords_expected": [
+      "secret",
+      "token"
+    ]
+  },
+  {
+    "id": 103,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_06",
+    "category": "heavy_small",
+    "prompt": "Build incident decision tree for multi-service latency regression in `admin-console`.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 104,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_07",
+    "category": "heavy_small",
+    "prompt": "Design privacy-first data redaction flow for pii/phi export artifacts in `admin-console`.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [
+      "pii",
+      "phi"
+    ]
+  },
+  {
+    "id": 105,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_00",
+    "category": "heavy_small",
+    "prompt": "Design zero-downtime migration for `order-sync` from shared DB to per-tenant schemas with rollback.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "migration"
+    ],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 106,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_01",
+    "category": "heavy_small",
+    "prompt": "Diagnose production deadlock in `widget-store` using lock graphs and stack trace; propose hotfix and long fix.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "deadlock",
+      "stack trace"
+    ],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 107,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_02",
+    "category": "heavy_small",
+    "prompt": "Threat-model webhook ingestion in `report-worker` and propose phased mitigations.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 108,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_03",
+    "category": "heavy_small",
+    "prompt": "Plan outage response for `catalog-service` with elevated 5xx and unclear root cause.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "outage"
+    ],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 109,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_04",
+    "category": "heavy_small",
+    "prompt": "Create local-only sanitation plan for production dump with customer data and token fields.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [
+      "customer data",
+      "production dump",
+      "token"
+    ]
+  },
+  {
+    "id": 110,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_05",
+    "category": "heavy_small",
+    "prompt": "Perform security review on auth token validation and secret rotation policy for `report-worker`.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "security",
+      "auth"
+    ],
+    "privacy_keywords_expected": [
+      "secret",
+      "token"
+    ]
+  },
+  {
+    "id": 111,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_06",
+    "category": "heavy_small",
+    "prompt": "Build incident decision tree for multi-service latency regression in `report-worker`.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 112,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_07",
+    "category": "heavy_small",
+    "prompt": "Design privacy-first data redaction flow for pii/phi export artifacts in `widget-store`.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [
+      "pii",
+      "phi"
+    ]
+  },
+  {
+    "id": 113,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_00",
+    "category": "heavy_small",
+    "prompt": "Design zero-downtime migration for `admin-console` from shared DB to per-tenant schemas with rollback.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "migration"
+    ],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 114,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_01",
+    "category": "heavy_small",
+    "prompt": "Diagnose production deadlock in `widget-store` using lock graphs and stack trace; propose hotfix and long fix.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "deadlock",
+      "stack trace"
+    ],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 115,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_02",
+    "category": "heavy_small",
+    "prompt": "Threat-model webhook ingestion in `report-worker` and propose phased mitigations.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 116,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_03",
+    "category": "heavy_small",
+    "prompt": "Plan outage response for `report-worker` with elevated 5xx and unclear root cause.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "outage"
+    ],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 117,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_04",
+    "category": "heavy_small",
+    "prompt": "Create local-only sanitation plan for production dump with customer data and token fields.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [
+      "customer data",
+      "production dump",
+      "token"
+    ]
+  },
+  {
+    "id": 118,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_05",
+    "category": "heavy_small",
+    "prompt": "Perform security review on auth token validation and secret rotation policy for `report-worker`.",
+    "label": "cloud",
+    "capability_keywords_expected": [
+      "security",
+      "auth"
+    ],
+    "privacy_keywords_expected": [
+      "secret",
+      "token"
+    ]
+  },
+  {
+    "id": 119,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_06",
+    "category": "heavy_small",
+    "prompt": "Build incident decision tree for multi-service latency regression in `order-sync`.",
+    "label": "cloud",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": []
+  },
+  {
+    "id": 120,
+    "task_size": "heavy_small",
+    "template_id": "heavy_small_07",
+    "category": "heavy_small",
+    "prompt": "Design privacy-first data redaction flow for pii/phi export artifacts in `catalog-service`.",
+    "label": "local",
+    "capability_keywords_expected": [],
+    "privacy_keywords_expected": [
+      "pii",
+      "phi"
+    ]
+  }
+]
