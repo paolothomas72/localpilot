@@ -239,6 +239,7 @@ def update_text(version: str) -> str:
 ABOUT_BODY = """\
 LocalPilot is a local-first decision gate.
 
+Stay local unless the task actually needs the cloud.
 It walks seven gates and answers LOCAL or CLOUD.
 It is not a generate() harness. OpenCode / Hermes still own file tools.
 
