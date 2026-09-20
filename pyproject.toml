@@ -1,7 +1,7 @@
 [project]
 name = "localpilot"
 version = "0.1.0"
-description = "Local-first model routing benchmark and CLI"
+description = "Stay local unless the task needs the cloud. A visible seven-gate router for Ollama and llama.cpp."
 requires-python = ">=3.10"
 dependencies = [
     "textual>=1.0.0",
