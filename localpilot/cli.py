@@ -19,6 +19,7 @@ from .local_ops import (
     probe_vram,
     read_lock,
     recommend_local_setup,
+    write_lock,
 )
 from .router import calibrate_threshold, route_task
 from .runtime_factory import build_adapter, model_for_runtime
@@ -73,7 +74,14 @@ def cmd_look(args: argparse.Namespace) -> int:
 
 
 def cmd_init(args: argparse.Namespace) -> int:
-    info = init_workspace(_project_dir(args.project))
+    project_dir = _project_dir(args.project)
+    info = init_workspace(project_dir)
+    cfg = _load_config(project_dir)
+    runtime_name = (cfg.get("runtime") or "ollama").lower()
+    router_model = model_for_runtime(cfg, runtime_name, None, "router")
+    if router_model:
+        lock = write_lock(project_dir, runtime_name, router_model)
+        info["lock"] = f"{lock.get('runtime')} / {lock.get('model')}"
     print("Initialized LocalPilot workspace:")
     for k, v in info.items():
         print(f"- {k}: {v}")
