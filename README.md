@@ -127,7 +127,7 @@ python tools\build_benchmark_card.py --in runs\benchmark-YYYYMMDDTHHMMSSZ.json -
 
 ## Related
 
-If you want the **coding-agent kernel** (six tools + deny-first sandbox on ~12GB), that is a different repo: [openbot-12gb](https://github.com/paolothomas72/openbot-12gb). LocalPilot only answers LOCAL vs CLOUD; it does not write files.
+If you want the **coding-agent kernel** (six tools + deny-first sandbox), that is [OpenBot](https://github.com/paolothomas72/openbot). LocalPilot only answers LOCAL vs CLOUD; it does not write files.
 
 ## License
 
