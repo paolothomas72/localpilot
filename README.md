@@ -125,6 +125,10 @@ python tools\build_leaderboard_report.py --in runs\multi-eval-public.json --out-
 python tools\build_benchmark_card.py --in runs\benchmark-YYYYMMDDTHHMMSSZ.json --title "LocalPilot Benchmark Card" --out-md runs\benchmark-card.md --out-json runs\benchmark-card.json
 ```
 
+## Related
+
+If you want the **coding-agent kernel** (six tools + deny-first sandbox on ~12GB), that is a different repo: [openbot-12gb](https://github.com/paolothomas72/openbot-12gb). LocalPilot only answers LOCAL vs CLOUD; it does not write files.
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
